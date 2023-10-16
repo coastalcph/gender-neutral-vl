@@ -1,0 +1,28 @@
+Creating vqa datasets
+Creating vqa datasets
+Creating vqa datasets
+Creating vqa datasets
+Creating model
+Creating model
+Creating model
+Creating model
+reshape position embedding from 256 to 576
+reshape position embedding from 256 to 576reshape position embedding from 256 to 576
+
+reshape position embedding from 256 to 576
+reshape position embedding from 256 to 576
+reshape position embedding from 256 to 576
+reshape position embedding from 256 to 576
+reshape position embedding from 256 to 576
+load checkpoint from /projects/nlp/data/data/multimodal-gender-bias/outputs/Pretrain_CC3M_neutral/albef_14m/checkpoint_00.pth
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['temp', 'image_queue', 'text_queue', 'queue_ptr', 'vision_proj.weight', 'vision_proj.bias', 'text_proj.weight', 'text_proj.bias', 'itm_head.weight', 'itm_head.bias', 'vision_proj_m.weight', 'vision_proj_m.bias', 'text_proj_m.weight', 'text_proj_m.bias'])
+Start training
+load checkpoint from /projects/nlp/data/data/multimodal-gender-bias/outputs/Pretrain_CC3M_neutral/albef_14m/checkpoint_00.pth
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['temp', 'image_queue', 'text_queue', 'queue_ptr', 'vision_proj.weight', 'vision_proj.bias', 'text_proj.weight', 'text_proj.bias', 'itm_head.weight', 'itm_head.bias', 'vision_proj_m.weight', 'vision_proj_m.bias', 'text_proj_m.weight', 'text_proj_m.bias'])
+Start training
+load checkpoint from /projects/nlp/data/data/multimodal-gender-bias/outputs/Pretrain_CC3M_neutral/albef_14m/checkpoint_00.pth
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['temp', 'image_queue', 'text_queue', 'queue_ptr', 'vision_proj.weight', 'vision_proj.bias', 'text_proj.weight', 'text_proj.bias', 'itm_head.weight', 'itm_head.bias', 'vision_proj_m.weight', 'vision_proj_m.bias', 'text_proj_m.weight', 'text_proj_m.bias'])
+Start training
+load checkpoint from /projects/nlp/data/data/multimodal-gender-bias/outputs/Pretrain_CC3M_neutral/albef_14m/checkpoint_00.pth
+_IncompatibleKeys(missing_keys=[], unexpected_keys=['temp', 'image_queue', 'text_queue', 'queue_ptr', 'vision_proj.weight', 'vision_proj.bias', 'text_proj.weight', 'text_proj.bias', 'itm_head.weight', 'itm_head.bias', 'vision_proj_m.weight', 'vision_proj_m.bias', 'text_proj_m.weight', 'text_proj_m.bias'])
+Start training

@@ -1,0 +1,390 @@
+Creating vqa datasets
+Creating model
+load checkpoint from /projects/nlp/data/data/multimodal-gender-bias/outputs/GQA/albef_14m/checkpoint_07.pth
+<All keys matched successfully>
+Start training
+Generate VQA test result:  [    0/19015]  eta: 19:43:06    time: 3.7332  data: 0.8699  max mem: 6950
+Generate VQA test result:  [   50/19015]  eta: 2:13:33    time: 0.3568  data: 0.0002  max mem: 6993
+Generate VQA test result:  [  100/19015]  eta: 2:03:15    time: 0.3582  data: 0.0001  max mem: 6999
+Generate VQA test result:  [  150/19015]  eta: 1:59:39    time: 0.3610  data: 0.0002  max mem: 6999
+Generate VQA test result:  [  200/19015]  eta: 1:57:48    time: 0.3636  data: 0.0002  max mem: 7005
+Generate VQA test result:  [  250/19015]  eta: 1:56:33    time: 0.3605  data: 0.0002  max mem: 7005
+Generate VQA test result:  [  300/19015]  eta: 1:55:44    time: 0.3639  data: 0.0002  max mem: 7005
+Generate VQA test result:  [  350/19015]  eta: 1:55:05    time: 0.3642  data: 0.0002  max mem: 7005
+Generate VQA test result:  [  400/19015]  eta: 1:54:29    time: 0.3635  data: 0.0002  max mem: 7005
+Generate VQA test result:  [  450/19015]  eta: 1:54:00    time: 0.3646  data: 0.0002  max mem: 7005
+Generate VQA test result:  [  500/19015]  eta: 1:53:38    time: 0.3655  data: 0.0002  max mem: 7011
+Generate VQA test result:  [  550/19015]  eta: 1:53:13    time: 0.3651  data: 0.0002  max mem: 7011
+Generate VQA test result:  [  600/19015]  eta: 1:52:51    time: 0.3658  data: 0.0002  max mem: 7011
+Generate VQA test result:  [  650/19015]  eta: 1:52:28    time: 0.3647  data: 0.0001  max mem: 7011
+Generate VQA test result:  [  700/19015]  eta: 1:52:04    time: 0.3615  data: 0.0002  max mem: 7011
+Generate VQA test result:  [  750/19015]  eta: 1:51:47    time: 0.3675  data: 0.0002  max mem: 7011
+Generate VQA test result:  [  800/19015]  eta: 1:51:28    time: 0.3679  data: 0.0002  max mem: 7011
+Generate VQA test result:  [  850/19015]  eta: 1:51:09    time: 0.3653  data: 0.0002  max mem: 7011
+Generate VQA test result:  [  900/19015]  eta: 1:50:49    time: 0.3655  data: 0.0002  max mem: 7011
+Generate VQA test result:  [  950/19015]  eta: 1:50:32    time: 0.3675  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1000/19015]  eta: 1:50:13    time: 0.3664  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1050/19015]  eta: 1:49:53    time: 0.3657  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1100/19015]  eta: 1:49:34    time: 0.3667  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1150/19015]  eta: 1:49:15    time: 0.3646  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1200/19015]  eta: 1:48:57    time: 0.3674  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1250/19015]  eta: 1:48:38    time: 0.3642  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1300/19015]  eta: 1:48:19    time: 0.3676  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1350/19015]  eta: 1:48:00    time: 0.3679  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1400/19015]  eta: 1:47:42    time: 0.3676  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1450/19015]  eta: 1:47:24    time: 0.3694  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1500/19015]  eta: 1:47:06    time: 0.3664  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1550/19015]  eta: 1:46:47    time: 0.3660  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1600/19015]  eta: 1:46:29    time: 0.3680  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1650/19015]  eta: 1:46:11    time: 0.3660  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1700/19015]  eta: 1:45:52    time: 0.3672  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1750/19015]  eta: 1:45:34    time: 0.3655  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1800/19015]  eta: 1:45:15    time: 0.3657  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1850/19015]  eta: 1:44:57    time: 0.3646  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1900/19015]  eta: 1:44:38    time: 0.3661  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 1950/19015]  eta: 1:44:20    time: 0.3666  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2000/19015]  eta: 1:44:01    time: 0.3664  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2050/19015]  eta: 1:43:43    time: 0.3671  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2100/19015]  eta: 1:43:25    time: 0.3655  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2150/19015]  eta: 1:43:06    time: 0.3665  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2200/19015]  eta: 1:42:48    time: 0.3674  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2250/19015]  eta: 1:42:29    time: 0.3666  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2300/19015]  eta: 1:42:11    time: 0.3660  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2350/19015]  eta: 1:41:52    time: 0.3661  data: 0.0001  max mem: 7011
+Generate VQA test result:  [ 2400/19015]  eta: 1:41:33    time: 0.3659  data: 0.0001  max mem: 7011
+Generate VQA test result:  [ 2450/19015]  eta: 1:41:14    time: 0.3668  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2500/19015]  eta: 1:40:55    time: 0.3644  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2550/19015]  eta: 1:40:37    time: 0.3678  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2600/19015]  eta: 1:40:18    time: 0.3644  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2650/19015]  eta: 1:39:59    time: 0.3623  data: 0.0002  max mem: 7011
+Generate VQA test result:  [ 2700/19015]  eta: 1:39:40    time: 0.3642  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 2750/19015]  eta: 1:39:20    time: 0.3633  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 2800/19015]  eta: 1:39:01    time: 0.3629  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 2850/19015]  eta: 1:38:42    time: 0.3659  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 2900/19015]  eta: 1:38:23    time: 0.3618  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 2950/19015]  eta: 1:38:05    time: 0.3642  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3000/19015]  eta: 1:37:46    time: 0.3664  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3050/19015]  eta: 1:37:28    time: 0.3656  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3100/19015]  eta: 1:37:10    time: 0.3657  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3150/19015]  eta: 1:36:52    time: 0.3659  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3200/19015]  eta: 1:36:34    time: 0.3659  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3250/19015]  eta: 1:36:16    time: 0.3687  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3300/19015]  eta: 1:35:57    time: 0.3648  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3350/19015]  eta: 1:35:38    time: 0.3654  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3400/19015]  eta: 1:35:20    time: 0.3670  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3450/19015]  eta: 1:35:02    time: 0.3677  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3500/19015]  eta: 1:34:44    time: 0.3666  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3550/19015]  eta: 1:34:25    time: 0.3665  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3600/19015]  eta: 1:34:07    time: 0.3680  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3650/19015]  eta: 1:33:49    time: 0.3664  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3700/19015]  eta: 1:33:31    time: 0.3667  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3750/19015]  eta: 1:33:13    time: 0.3681  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3800/19015]  eta: 1:32:54    time: 0.3672  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3850/19015]  eta: 1:32:36    time: 0.3673  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3900/19015]  eta: 1:32:18    time: 0.3664  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 3950/19015]  eta: 1:32:00    time: 0.3664  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4000/19015]  eta: 1:31:42    time: 0.3665  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4050/19015]  eta: 1:31:23    time: 0.3665  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4100/19015]  eta: 1:31:05    time: 0.3676  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4150/19015]  eta: 1:30:47    time: 0.3666  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4200/19015]  eta: 1:30:28    time: 0.3649  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4250/19015]  eta: 1:30:10    time: 0.3673  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4300/19015]  eta: 1:29:51    time: 0.3652  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4350/19015]  eta: 1:29:33    time: 0.3676  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4400/19015]  eta: 1:29:15    time: 0.3670  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4450/19015]  eta: 1:28:57    time: 0.3668  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4500/19015]  eta: 1:28:38    time: 0.3649  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4550/19015]  eta: 1:28:20    time: 0.3663  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4600/19015]  eta: 1:28:02    time: 0.3661  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4650/19015]  eta: 1:27:43    time: 0.3650  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4700/19015]  eta: 1:27:25    time: 0.3646  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4750/19015]  eta: 1:27:07    time: 0.3675  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4800/19015]  eta: 1:26:49    time: 0.3670  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4850/19015]  eta: 1:26:30    time: 0.3652  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4900/19015]  eta: 1:26:12    time: 0.3687  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 4950/19015]  eta: 1:25:54    time: 0.3650  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5000/19015]  eta: 1:25:35    time: 0.3654  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5050/19015]  eta: 1:25:17    time: 0.3675  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5100/19015]  eta: 1:24:59    time: 0.3667  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5150/19015]  eta: 1:24:41    time: 0.3658  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5200/19015]  eta: 1:24:22    time: 0.3672  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5250/19015]  eta: 1:24:04    time: 0.3664  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5300/19015]  eta: 1:23:46    time: 0.3664  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5350/19015]  eta: 1:23:27    time: 0.3679  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5400/19015]  eta: 1:23:09    time: 0.3659  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5450/19015]  eta: 1:22:51    time: 0.3650  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5500/19015]  eta: 1:22:32    time: 0.3681  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5550/19015]  eta: 1:22:14    time: 0.3646  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5600/19015]  eta: 1:21:55    time: 0.3641  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5650/19015]  eta: 1:21:37    time: 0.3651  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5700/19015]  eta: 1:21:19    time: 0.3648  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5750/19015]  eta: 1:21:00    time: 0.3669  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5800/19015]  eta: 1:20:42    time: 0.3677  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5850/19015]  eta: 1:20:24    time: 0.3661  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5900/19015]  eta: 1:20:06    time: 0.3683  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 5950/19015]  eta: 1:19:47    time: 0.3645  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6000/19015]  eta: 1:19:29    time: 0.3654  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6050/19015]  eta: 1:19:10    time: 0.3666  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6100/19015]  eta: 1:18:52    time: 0.3651  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6150/19015]  eta: 1:18:34    time: 0.3652  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6200/19015]  eta: 1:18:15    time: 0.3660  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6250/19015]  eta: 1:17:57    time: 0.3678  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6300/19015]  eta: 1:17:39    time: 0.3661  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6350/19015]  eta: 1:17:21    time: 0.3681  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6400/19015]  eta: 1:17:02    time: 0.3662  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6450/19015]  eta: 1:16:44    time: 0.3659  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6500/19015]  eta: 1:16:26    time: 0.3649  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6550/19015]  eta: 1:16:07    time: 0.3658  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6600/19015]  eta: 1:15:49    time: 0.3690  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6650/19015]  eta: 1:15:31    time: 0.3652  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6700/19015]  eta: 1:15:12    time: 0.3671  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6750/19015]  eta: 1:14:54    time: 0.3659  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6800/19015]  eta: 1:14:36    time: 0.3686  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6850/19015]  eta: 1:14:17    time: 0.3664  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6900/19015]  eta: 1:13:59    time: 0.3660  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 6950/19015]  eta: 1:13:41    time: 0.3650  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7000/19015]  eta: 1:13:22    time: 0.3669  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7050/19015]  eta: 1:13:04    time: 0.3648  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7100/19015]  eta: 1:12:46    time: 0.3647  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7150/19015]  eta: 1:12:27    time: 0.3669  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7200/19015]  eta: 1:12:09    time: 0.3647  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7250/19015]  eta: 1:11:51    time: 0.3652  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7300/19015]  eta: 1:11:32    time: 0.3668  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7350/19015]  eta: 1:11:14    time: 0.3657  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7400/19015]  eta: 1:10:56    time: 0.3649  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7450/19015]  eta: 1:10:37    time: 0.3641  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7500/19015]  eta: 1:10:19    time: 0.3652  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7550/19015]  eta: 1:10:01    time: 0.3671  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7600/19015]  eta: 1:09:42    time: 0.3677  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7650/19015]  eta: 1:09:24    time: 0.3661  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7700/19015]  eta: 1:09:06    time: 0.3681  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7750/19015]  eta: 1:08:47    time: 0.3654  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7800/19015]  eta: 1:08:29    time: 0.3673  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7850/19015]  eta: 1:08:11    time: 0.3691  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7900/19015]  eta: 1:07:52    time: 0.3666  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 7950/19015]  eta: 1:07:34    time: 0.3656  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8000/19015]  eta: 1:07:16    time: 0.3680  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8050/19015]  eta: 1:06:58    time: 0.3678  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8100/19015]  eta: 1:06:39    time: 0.3668  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8150/19015]  eta: 1:06:21    time: 0.3674  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8200/19015]  eta: 1:06:03    time: 0.3656  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8250/19015]  eta: 1:05:44    time: 0.3651  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8300/19015]  eta: 1:05:26    time: 0.3629  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8350/19015]  eta: 1:05:07    time: 0.3662  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8400/19015]  eta: 1:04:49    time: 0.3647  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8450/19015]  eta: 1:04:30    time: 0.3616  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8500/19015]  eta: 1:04:12    time: 0.3636  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8550/19015]  eta: 1:03:53    time: 0.3615  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8600/19015]  eta: 1:03:35    time: 0.3643  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8650/19015]  eta: 1:03:16    time: 0.3641  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8700/19015]  eta: 1:02:58    time: 0.3639  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8750/19015]  eta: 1:02:40    time: 0.3644  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8800/19015]  eta: 1:02:21    time: 0.3619  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8850/19015]  eta: 1:02:02    time: 0.3612  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8900/19015]  eta: 1:01:44    time: 0.3643  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 8950/19015]  eta: 1:01:26    time: 0.3640  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9000/19015]  eta: 1:01:07    time: 0.3668  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9050/19015]  eta: 1:00:49    time: 0.3650  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9100/19015]  eta: 1:00:30    time: 0.3647  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9150/19015]  eta: 1:00:12    time: 0.3646  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9200/19015]  eta: 0:59:54    time: 0.3643  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9250/19015]  eta: 0:59:35    time: 0.3626  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9300/19015]  eta: 0:59:17    time: 0.3625  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9350/19015]  eta: 0:58:58    time: 0.3648  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9400/19015]  eta: 0:58:40    time: 0.3646  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9450/19015]  eta: 0:58:21    time: 0.3660  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9500/19015]  eta: 0:58:03    time: 0.3640  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9550/19015]  eta: 0:57:45    time: 0.3642  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9600/19015]  eta: 0:57:26    time: 0.3645  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9650/19015]  eta: 0:57:08    time: 0.3621  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9700/19015]  eta: 0:56:49    time: 0.3640  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9750/19015]  eta: 0:56:31    time: 0.3598  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9800/19015]  eta: 0:56:13    time: 0.3688  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9850/19015]  eta: 0:55:54    time: 0.3618  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9900/19015]  eta: 0:55:36    time: 0.3650  data: 0.0002  max mem: 7042
+Generate VQA test result:  [ 9950/19015]  eta: 0:55:17    time: 0.3645  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10000/19015]  eta: 0:54:59    time: 0.3630  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10050/19015]  eta: 0:54:40    time: 0.3614  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10100/19015]  eta: 0:54:22    time: 0.3649  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10150/19015]  eta: 0:54:04    time: 0.3637  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10200/19015]  eta: 0:53:45    time: 0.3649  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10250/19015]  eta: 0:53:27    time: 0.3641  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10300/19015]  eta: 0:53:09    time: 0.3644  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10350/19015]  eta: 0:52:50    time: 0.3663  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10400/19015]  eta: 0:52:32    time: 0.3640  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10450/19015]  eta: 0:52:14    time: 0.3633  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10500/19015]  eta: 0:51:55    time: 0.3624  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10550/19015]  eta: 0:51:37    time: 0.3638  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10600/19015]  eta: 0:51:18    time: 0.3618  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10650/19015]  eta: 0:51:00    time: 0.3631  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10700/19015]  eta: 0:50:42    time: 0.3631  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10750/19015]  eta: 0:50:23    time: 0.3659  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10800/19015]  eta: 0:50:05    time: 0.3679  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10850/19015]  eta: 0:49:47    time: 0.3618  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10900/19015]  eta: 0:49:28    time: 0.3666  data: 0.0002  max mem: 7042
+Generate VQA test result:  [10950/19015]  eta: 0:49:10    time: 0.3633  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11000/19015]  eta: 0:48:52    time: 0.3633  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11050/19015]  eta: 0:48:33    time: 0.3626  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11100/19015]  eta: 0:48:15    time: 0.3641  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11150/19015]  eta: 0:47:56    time: 0.3618  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11200/19015]  eta: 0:47:38    time: 0.3637  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11250/19015]  eta: 0:47:20    time: 0.3630  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11300/19015]  eta: 0:47:01    time: 0.3628  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11350/19015]  eta: 0:46:43    time: 0.3646  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11400/19015]  eta: 0:46:24    time: 0.3638  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11450/19015]  eta: 0:46:06    time: 0.3657  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11500/19015]  eta: 0:45:48    time: 0.3639  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11550/19015]  eta: 0:45:29    time: 0.3643  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11600/19015]  eta: 0:45:11    time: 0.3656  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11650/19015]  eta: 0:44:53    time: 0.3621  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11700/19015]  eta: 0:44:34    time: 0.3631  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11750/19015]  eta: 0:44:16    time: 0.3675  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11800/19015]  eta: 0:43:58    time: 0.3625  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11850/19015]  eta: 0:43:39    time: 0.3622  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11900/19015]  eta: 0:43:21    time: 0.3623  data: 0.0002  max mem: 7042
+Generate VQA test result:  [11950/19015]  eta: 0:43:03    time: 0.3630  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12000/19015]  eta: 0:42:45    time: 0.3653  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12050/19015]  eta: 0:42:26    time: 0.3644  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12100/19015]  eta: 0:42:08    time: 0.3651  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12150/19015]  eta: 0:41:50    time: 0.3641  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12200/19015]  eta: 0:41:31    time: 0.3627  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12250/19015]  eta: 0:41:13    time: 0.3660  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12300/19015]  eta: 0:40:55    time: 0.3632  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12350/19015]  eta: 0:40:36    time: 0.3632  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12400/19015]  eta: 0:40:18    time: 0.3641  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12450/19015]  eta: 0:40:00    time: 0.3633  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12500/19015]  eta: 0:39:41    time: 0.3632  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12550/19015]  eta: 0:39:23    time: 0.3649  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12600/19015]  eta: 0:39:05    time: 0.3631  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12650/19015]  eta: 0:38:46    time: 0.3650  data: 0.0001  max mem: 7042
+Generate VQA test result:  [12700/19015]  eta: 0:38:28    time: 0.3635  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12750/19015]  eta: 0:38:10    time: 0.3631  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12800/19015]  eta: 0:37:51    time: 0.3676  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12850/19015]  eta: 0:37:33    time: 0.3636  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12900/19015]  eta: 0:37:15    time: 0.3630  data: 0.0002  max mem: 7042
+Generate VQA test result:  [12950/19015]  eta: 0:36:56    time: 0.3652  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13000/19015]  eta: 0:36:38    time: 0.3661  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13050/19015]  eta: 0:36:20    time: 0.3641  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13100/19015]  eta: 0:36:02    time: 0.3634  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13150/19015]  eta: 0:35:43    time: 0.3618  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13200/19015]  eta: 0:35:25    time: 0.3657  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13250/19015]  eta: 0:35:07    time: 0.3620  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13300/19015]  eta: 0:34:48    time: 0.3640  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13350/19015]  eta: 0:34:30    time: 0.3666  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13400/19015]  eta: 0:34:12    time: 0.3611  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13450/19015]  eta: 0:33:53    time: 0.3665  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13500/19015]  eta: 0:33:35    time: 0.3637  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13550/19015]  eta: 0:33:17    time: 0.3619  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13600/19015]  eta: 0:32:58    time: 0.3636  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13650/19015]  eta: 0:32:40    time: 0.3647  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13700/19015]  eta: 0:32:22    time: 0.3627  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13750/19015]  eta: 0:32:03    time: 0.3620  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13800/19015]  eta: 0:31:45    time: 0.3625  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13850/19015]  eta: 0:31:27    time: 0.3649  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13900/19015]  eta: 0:31:09    time: 0.3621  data: 0.0002  max mem: 7042
+Generate VQA test result:  [13950/19015]  eta: 0:30:50    time: 0.3646  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14000/19015]  eta: 0:30:32    time: 0.3643  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14050/19015]  eta: 0:30:14    time: 0.3627  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14100/19015]  eta: 0:29:55    time: 0.3647  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14150/19015]  eta: 0:29:37    time: 0.3633  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14200/19015]  eta: 0:29:19    time: 0.3652  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14250/19015]  eta: 0:29:01    time: 0.3620  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14300/19015]  eta: 0:28:42    time: 0.3641  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14350/19015]  eta: 0:28:24    time: 0.3650  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14400/19015]  eta: 0:28:06    time: 0.3624  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14450/19015]  eta: 0:27:47    time: 0.3647  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14500/19015]  eta: 0:27:29    time: 0.3640  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14550/19015]  eta: 0:27:11    time: 0.3621  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14600/19015]  eta: 0:26:53    time: 0.3644  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14650/19015]  eta: 0:26:34    time: 0.3620  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14700/19015]  eta: 0:26:16    time: 0.3659  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14750/19015]  eta: 0:25:58    time: 0.3622  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14800/19015]  eta: 0:25:39    time: 0.3660  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14850/19015]  eta: 0:25:21    time: 0.3672  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14900/19015]  eta: 0:25:03    time: 0.3627  data: 0.0002  max mem: 7042
+Generate VQA test result:  [14950/19015]  eta: 0:24:45    time: 0.3642  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15000/19015]  eta: 0:24:26    time: 0.3617  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15050/19015]  eta: 0:24:08    time: 0.3660  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15100/19015]  eta: 0:23:50    time: 0.3615  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15150/19015]  eta: 0:23:31    time: 0.3633  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15200/19015]  eta: 0:23:13    time: 0.3645  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15250/19015]  eta: 0:22:55    time: 0.3643  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15300/19015]  eta: 0:22:37    time: 0.3635  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15350/19015]  eta: 0:22:18    time: 0.3649  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15400/19015]  eta: 0:22:00    time: 0.3650  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15450/19015]  eta: 0:21:42    time: 0.3650  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15500/19015]  eta: 0:21:23    time: 0.3635  data: 0.0002  max mem: 7042
+Generate VQA test result:  [15550/19015]  eta: 0:21:05    time: 0.3651  data: 0.0002  max mem: 7054
+Generate VQA test result:  [15600/19015]  eta: 0:20:47    time: 0.3668  data: 0.0002  max mem: 7054
+Generate VQA test result:  [15650/19015]  eta: 0:20:29    time: 0.3636  data: 0.0002  max mem: 7054
+Generate VQA test result:  [15700/19015]  eta: 0:20:10    time: 0.3649  data: 0.0002  max mem: 7054
+Generate VQA test result:  [15750/19015]  eta: 0:19:52    time: 0.3636  data: 0.0002  max mem: 7054
+Generate VQA test result:  [15800/19015]  eta: 0:19:34    time: 0.3617  data: 0.0002  max mem: 7054
+Generate VQA test result:  [15850/19015]  eta: 0:19:16    time: 0.3641  data: 0.0002  max mem: 7054
+Generate VQA test result:  [15900/19015]  eta: 0:18:57    time: 0.3666  data: 0.0002  max mem: 7054
+Generate VQA test result:  [15950/19015]  eta: 0:18:39    time: 0.3672  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16000/19015]  eta: 0:18:21    time: 0.3620  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16050/19015]  eta: 0:18:02    time: 0.3638  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16100/19015]  eta: 0:17:44    time: 0.3627  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16150/19015]  eta: 0:17:26    time: 0.3635  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16200/19015]  eta: 0:17:08    time: 0.3649  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16250/19015]  eta: 0:16:49    time: 0.3638  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16300/19015]  eta: 0:16:31    time: 0.3634  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16350/19015]  eta: 0:16:13    time: 0.3638  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16400/19015]  eta: 0:15:55    time: 0.3620  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16450/19015]  eta: 0:15:36    time: 0.3642  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16500/19015]  eta: 0:15:18    time: 0.3621  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16550/19015]  eta: 0:15:00    time: 0.3665  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16600/19015]  eta: 0:14:41    time: 0.3629  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16650/19015]  eta: 0:14:23    time: 0.3661  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16700/19015]  eta: 0:14:05    time: 0.3626  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16750/19015]  eta: 0:13:47    time: 0.3647  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16800/19015]  eta: 0:13:28    time: 0.3623  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16850/19015]  eta: 0:13:10    time: 0.3648  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16900/19015]  eta: 0:12:52    time: 0.3702  data: 0.0002  max mem: 7054
+Generate VQA test result:  [16950/19015]  eta: 0:12:34    time: 0.3637  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17000/19015]  eta: 0:12:15    time: 0.3647  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17050/19015]  eta: 0:11:57    time: 0.3645  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17100/19015]  eta: 0:11:39    time: 0.3619  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17150/19015]  eta: 0:11:21    time: 0.3656  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17200/19015]  eta: 0:11:02    time: 0.3639  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17250/19015]  eta: 0:10:44    time: 0.3625  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17300/19015]  eta: 0:10:26    time: 0.3654  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17350/19015]  eta: 0:10:07    time: 0.3617  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17400/19015]  eta: 0:09:49    time: 0.3677  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17450/19015]  eta: 0:09:31    time: 0.3640  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17500/19015]  eta: 0:09:13    time: 0.3625  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17550/19015]  eta: 0:08:54    time: 0.3627  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17600/19015]  eta: 0:08:36    time: 0.3634  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17650/19015]  eta: 0:08:18    time: 0.3647  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17700/19015]  eta: 0:08:00    time: 0.3607  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17750/19015]  eta: 0:07:41    time: 0.3643  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17800/19015]  eta: 0:07:23    time: 0.3632  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17850/19015]  eta: 0:07:05    time: 0.3645  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17900/19015]  eta: 0:06:47    time: 0.3622  data: 0.0002  max mem: 7054
+Generate VQA test result:  [17950/19015]  eta: 0:06:28    time: 0.3654  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18000/19015]  eta: 0:06:10    time: 0.3626  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18050/19015]  eta: 0:05:52    time: 0.3624  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18100/19015]  eta: 0:05:34    time: 0.3668  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18150/19015]  eta: 0:05:15    time: 0.3629  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18200/19015]  eta: 0:04:57    time: 0.3653  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18250/19015]  eta: 0:04:39    time: 0.3655  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18300/19015]  eta: 0:04:21    time: 0.3635  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18350/19015]  eta: 0:04:02    time: 0.3627  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18400/19015]  eta: 0:03:44    time: 0.3654  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18450/19015]  eta: 0:03:26    time: 0.3642  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18500/19015]  eta: 0:03:08    time: 0.3637  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18550/19015]  eta: 0:02:49    time: 0.3630  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18600/19015]  eta: 0:02:31    time: 0.3663  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18650/19015]  eta: 0:02:13    time: 0.3656  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18700/19015]  eta: 0:01:55    time: 0.3657  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18750/19015]  eta: 0:01:36    time: 0.3651  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18800/19015]  eta: 0:01:18    time: 0.3621  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18850/19015]  eta: 0:01:00    time: 0.3658  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18900/19015]  eta: 0:00:41    time: 0.3628  data: 0.0002  max mem: 7054
+Generate VQA test result:  [18950/19015]  eta: 0:00:23    time: 0.3632  data: 0.0002  max mem: 7054
+Generate VQA test result:  [19000/19015]  eta: 0:00:05    time: 0.3633  data: 0.0002  max mem: 7054
+Generate VQA test result:  [19014/19015]  eta: 0:00:00    time: 0.3585  data: 0.0002  max mem: 7054
+Generate VQA test result: Total time: 1:55:42 (0.3651 s / it)
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/GQA/albef_14m/result/vqa_result_epoch0.json
+Training time 1:55:45

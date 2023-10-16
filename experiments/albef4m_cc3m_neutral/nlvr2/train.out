@@ -1,0 +1,452 @@
+| distributed init (rank 3): env://
+| distributed init (rank 2): env://
+| distributed init (rank 0): env://
+| distributed init (rank 1): env://
+Creating dataset
+Creating model
+reshape position embedding from 256 to 576
+reshape position embedding from 256 to 576
+load checkpoint from /projects/nlp/data/data/multimodal-gender-bias/outputs/Pretrain_CC3M_neutral/albef_4m/checkpoint_00.pth
+_IncompatibleKeys(missing_keys=['cls_head.0.weight', 'cls_head.0.bias', 'cls_head.2.weight', 'cls_head.2.bias', 'cls_head_m.0.weight', 'cls_head_m.0.bias', 'cls_head_m.2.weight', 'cls_head_m.2.bias'], unexpected_keys=['temp', 'image_queue', 'text_queue', 'queue_ptr', 'vision_proj.weight', 'vision_proj.bias', 'text_proj.weight', 'text_proj.bias', 'itm_head.weight', 'itm_head.bias', 'vision_proj_m.weight', 'vision_proj_m.bias', 'text_proj_m.weight', 'text_proj_m.bias', 'text_encoder.cls.predictions.bias', 'text_encoder.cls.predictions.transform.dense.weight', 'text_encoder.cls.predictions.transform.dense.bias', 'text_encoder.cls.predictions.transform.LayerNorm.weight', 'text_encoder.cls.predictions.transform.LayerNorm.bias', 'text_encoder.cls.predictions.decoder.weight', 'text_encoder.cls.predictions.decoder.bias', 'text_encoder_m.cls.predictions.bias', 'text_encoder_m.cls.predictions.transform.dense.weight', 'text_encoder_m.cls.predictions.transform.dense.bias', 'text_encoder_m.cls.predictions.transform.LayerNorm.weight', 'text_encoder_m.cls.predictions.transform.LayerNorm.bias', 'text_encoder_m.cls.predictions.decoder.weight', 'text_encoder_m.cls.predictions.decoder.bias'])
+Start training
+Train Epoch: [0]  [   0/1349]  eta: 3:20:25  lr: 0.000010  loss: 0.6929  time: 8.9141  data: 2.6879  max mem: 22212
+Train Epoch: [0]  [  50/1349]  eta: 0:34:12  lr: 0.000010  loss: 0.7112  time: 1.4309  data: 0.0001  max mem: 25468
+Train Epoch: [0]  [ 100/1349]  eta: 0:31:22  lr: 0.000010  loss: 0.6934  time: 1.4344  data: 0.0001  max mem: 25468
+Train Epoch: [0]  [ 150/1349]  eta: 0:29:40  lr: 0.000020  loss: 0.6273  time: 1.4388  data: 0.0001  max mem: 25468
+Train Epoch: [0]  [ 200/1349]  eta: 0:28:12  lr: 0.000020  loss: 0.6649  time: 1.4418  data: 0.0001  max mem: 25468
+Train Epoch: [0]  [ 250/1349]  eta: 0:26:53  lr: 0.000020  loss: 0.6619  time: 1.4453  data: 0.0001  max mem: 25468
+Train Epoch: [0]  [ 300/1349]  eta: 0:25:36  lr: 0.000020  loss: 0.7432  time: 1.4482  data: 0.0001  max mem: 25468
+Train Epoch: [0]  [ 350/1349]  eta: 0:24:20  lr: 0.000020  loss: 0.7236  time: 1.4477  data: 0.0001  max mem: 25546
+Train Epoch: [0]  [ 400/1349]  eta: 0:23:06  lr: 0.000020  loss: 0.6260  time: 1.4511  data: 0.0001  max mem: 25546
+Train Epoch: [0]  [ 450/1349]  eta: 0:21:52  lr: 0.000020  loss: 0.6445  time: 1.4533  data: 0.0001  max mem: 25546
+Train Epoch: [0]  [ 500/1349]  eta: 0:20:38  lr: 0.000020  loss: 0.5287  time: 1.4522  data: 0.0001  max mem: 25546
+Train Epoch: [0]  [ 550/1349]  eta: 0:19:24  lr: 0.000020  loss: 0.6520  time: 1.4528  data: 0.0001  max mem: 25546
+Train Epoch: [0]  [ 600/1349]  eta: 0:18:11  lr: 0.000020  loss: 0.6997  time: 1.4491  data: 0.0001  max mem: 25546
+Train Epoch: [0]  [ 650/1349]  eta: 0:16:58  lr: 0.000020  loss: 0.6207  time: 1.4501  data: 0.0001  max mem: 25546
+Train Epoch: [0]  [ 700/1349]  eta: 0:15:45  lr: 0.000020  loss: 0.5440  time: 1.4527  data: 0.0001  max mem: 25546
+Train Epoch: [0]  [ 750/1349]  eta: 0:14:32  lr: 0.000020  loss: 0.5752  time: 1.4513  data: 0.0001  max mem: 25546
+Train Epoch: [0]  [ 800/1349]  eta: 0:13:19  lr: 0.000020  loss: 0.5744  time: 1.4525  data: 0.0001  max mem: 25546
+Train Epoch: [0]  [ 850/1349]  eta: 0:12:06  lr: 0.000020  loss: 0.6501  time: 1.4514  data: 0.0001  max mem: 25557
+Train Epoch: [0]  [ 900/1349]  eta: 0:10:53  lr: 0.000020  loss: 0.6255  time: 1.4491  data: 0.0001  max mem: 25557
+Train Epoch: [0]  [ 950/1349]  eta: 0:09:40  lr: 0.000020  loss: 0.5729  time: 1.4490  data: 0.0001  max mem: 25557
+Train Epoch: [0]  [1000/1349]  eta: 0:08:27  lr: 0.000020  loss: 0.6353  time: 1.4504  data: 0.0001  max mem: 25557
+Train Epoch: [0]  [1050/1349]  eta: 0:07:14  lr: 0.000020  loss: 0.5541  time: 1.4536  data: 0.0001  max mem: 25557
+Train Epoch: [0]  [1100/1349]  eta: 0:06:02  lr: 0.000020  loss: 0.6102  time: 1.4477  data: 0.0001  max mem: 25557
+Train Epoch: [0]  [1150/1349]  eta: 0:04:49  lr: 0.000020  loss: 0.6187  time: 1.4523  data: 0.0001  max mem: 25557
+Train Epoch: [0]  [1200/1349]  eta: 0:03:36  lr: 0.000020  loss: 0.6158  time: 1.4501  data: 0.0001  max mem: 25557
+Train Epoch: [0]  [1250/1349]  eta: 0:02:23  lr: 0.000020  loss: 0.6551  time: 1.4519  data: 0.0001  max mem: 25557
+Train Epoch: [0]  [1300/1349]  eta: 0:01:11  lr: 0.000020  loss: 0.4382  time: 1.4541  data: 0.0001  max mem: 25557
+Train Epoch: [0]  [1348/1349]  eta: 0:00:01  lr: 0.000020  loss: 0.4676  time: 1.4417  data: 0.0002  max mem: 25557
+Train Epoch: [0] Total time: 0:32:41 (1.4538 s / it)
+Averaged stats: lr: 0.0000  loss: 0.6080
+Evaluation:  [  0/110]  eta: 0:02:24  acc: 0.6875 (0.6875)  time: 1.3113  data: 0.9239  max mem: 25557
+Evaluation:  [ 50/110]  eta: 0:00:23  acc: 0.6875 (0.7096)  time: 0.3668  data: 0.0002  max mem: 25557
+Evaluation:  [100/110]  eta: 0:00:03  acc: 0.6875 (0.7215)  time: 0.3675  data: 0.0002  max mem: 25557
+Evaluation:  [109/110]  eta: 0:00:00  acc: 0.7500 (0.7211)  time: 0.3493  data: 0.0002  max mem: 25557
+Evaluation: Total time: 0:00:41 (0.3755 s / it)
+Averaged stats: acc: 0.7192
+Evaluation:  [  0/109]  eta: 0:02:31  acc: 0.5625 (0.5625)  time: 1.3902  data: 0.9867  max mem: 25557
+Evaluation:  [ 50/109]  eta: 0:00:23  acc: 0.7500 (0.7598)  time: 0.3691  data: 0.0002  max mem: 25557
+Evaluation:  [100/109]  eta: 0:00:03  acc: 0.6875 (0.7345)  time: 0.3656  data: 0.0002  max mem: 25557
+Evaluation:  [108/109]  eta: 0:00:00  acc: 0.6875 (0.7331)  time: 0.3587  data: 0.0002  max mem: 25557
+Evaluation: Total time: 0:00:41 (0.3770 s / it)
+Averaged stats: acc: 0.7209
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_val_epoch0.json
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_test_epoch0.json
+Train Epoch: [1]  [   0/1349]  eta: 1:12:45  lr: 0.000020  loss: 0.5154  time: 3.2362  data: 1.5335  max mem: 26281
+Train Epoch: [1]  [  50/1349]  eta: 0:31:50  lr: 0.000020  loss: 0.4876  time: 1.4360  data: 0.0001  max mem: 26478
+Train Epoch: [1]  [ 100/1349]  eta: 0:30:17  lr: 0.000020  loss: 0.7177  time: 1.4423  data: 0.0001  max mem: 26478
+Train Epoch: [1]  [ 150/1349]  eta: 0:28:59  lr: 0.000020  loss: 0.5399  time: 1.4419  data: 0.0001  max mem: 26478
+Train Epoch: [1]  [ 200/1349]  eta: 0:27:45  lr: 0.000020  loss: 0.6014  time: 1.4466  data: 0.0001  max mem: 26478
+Train Epoch: [1]  [ 250/1349]  eta: 0:26:31  lr: 0.000020  loss: 0.5307  time: 1.4465  data: 0.0001  max mem: 26478
+Train Epoch: [1]  [ 300/1349]  eta: 0:25:19  lr: 0.000020  loss: 0.4229  time: 1.4494  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 350/1349]  eta: 0:24:06  lr: 0.000020  loss: 0.5179  time: 1.4466  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 400/1349]  eta: 0:22:54  lr: 0.000020  loss: 0.5647  time: 1.4492  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 450/1349]  eta: 0:21:42  lr: 0.000020  loss: 0.5952  time: 1.4515  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 500/1349]  eta: 0:20:30  lr: 0.000020  loss: 0.4560  time: 1.4490  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 550/1349]  eta: 0:19:17  lr: 0.000020  loss: 0.7486  time: 1.4532  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 600/1349]  eta: 0:18:05  lr: 0.000020  loss: 0.7632  time: 1.4526  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 650/1349]  eta: 0:16:53  lr: 0.000020  loss: 0.4449  time: 1.4504  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 700/1349]  eta: 0:15:40  lr: 0.000020  loss: 0.5633  time: 1.4464  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 750/1349]  eta: 0:14:28  lr: 0.000020  loss: 0.4319  time: 1.4497  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 800/1349]  eta: 0:13:15  lr: 0.000020  loss: 0.4745  time: 1.4519  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 850/1349]  eta: 0:12:03  lr: 0.000020  loss: 0.4275  time: 1.4486  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 900/1349]  eta: 0:10:50  lr: 0.000020  loss: 0.4143  time: 1.4548  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [ 950/1349]  eta: 0:09:38  lr: 0.000020  loss: 0.4502  time: 1.4511  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [1000/1349]  eta: 0:08:25  lr: 0.000020  loss: 0.5184  time: 1.4471  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [1050/1349]  eta: 0:07:13  lr: 0.000020  loss: 0.4906  time: 1.4497  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [1100/1349]  eta: 0:06:00  lr: 0.000020  loss: 0.4887  time: 1.4509  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [1150/1349]  eta: 0:04:48  lr: 0.000020  loss: 0.5402  time: 1.4518  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [1200/1349]  eta: 0:03:36  lr: 0.000020  loss: 0.5459  time: 1.4494  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [1250/1349]  eta: 0:02:23  lr: 0.000020  loss: 0.5733  time: 1.4490  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [1300/1349]  eta: 0:01:11  lr: 0.000020  loss: 0.4840  time: 1.4477  data: 0.0001  max mem: 26568
+Train Epoch: [1]  [1348/1349]  eta: 0:00:01  lr: 0.000020  loss: 0.3570  time: 1.4443  data: 0.0002  max mem: 26568
+Train Epoch: [1] Total time: 0:32:35 (1.4499 s / it)
+Averaged stats: lr: 0.0000  loss: 0.5164
+Evaluation:  [  0/110]  eta: 0:02:45  acc: 0.8125 (0.8125)  time: 1.5058  data: 1.0744  max mem: 26568
+Evaluation:  [ 50/110]  eta: 0:00:23  acc: 0.7500 (0.7365)  time: 0.3676  data: 0.0002  max mem: 26568
+Evaluation:  [100/110]  eta: 0:00:03  acc: 0.7500 (0.7475)  time: 0.3670  data: 0.0002  max mem: 26568
+Evaluation:  [109/110]  eta: 0:00:00  acc: 0.7500 (0.7474)  time: 0.3478  data: 0.0002  max mem: 26568
+Evaluation: Total time: 0:00:41 (0.3770 s / it)
+Averaged stats: acc: 0.7481
+Evaluation:  [  0/109]  eta: 0:02:36  acc: 0.6875 (0.6875)  time: 1.4381  data: 1.0531  max mem: 26568
+Evaluation:  [ 50/109]  eta: 0:00:22  acc: 0.7500 (0.7647)  time: 0.3681  data: 0.0002  max mem: 26568
+Evaluation:  [100/109]  eta: 0:00:03  acc: 0.7500 (0.7562)  time: 0.3679  data: 0.0003  max mem: 26568
+Evaluation:  [108/109]  eta: 0:00:00  acc: 0.7500 (0.7509)  time: 0.3603  data: 0.0002  max mem: 26568
+Evaluation: Total time: 0:00:41 (0.3775 s / it)
+Averaged stats: acc: 0.7453
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_val_epoch1.json
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_test_epoch1.json
+Train Epoch: [2]  [   0/1349]  eta: 1:21:12  lr: 0.000018  loss: 0.3996  time: 3.6119  data: 1.3855  max mem: 26568
+Train Epoch: [2]  [  50/1349]  eta: 0:32:06  lr: 0.000018  loss: 0.3883  time: 1.4427  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 100/1349]  eta: 0:30:27  lr: 0.000018  loss: 0.3248  time: 1.4411  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 150/1349]  eta: 0:29:07  lr: 0.000018  loss: 0.3735  time: 1.4453  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 200/1349]  eta: 0:27:52  lr: 0.000018  loss: 0.4560  time: 1.4499  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 250/1349]  eta: 0:26:38  lr: 0.000018  loss: 0.4035  time: 1.4510  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 300/1349]  eta: 0:25:24  lr: 0.000018  loss: 0.2937  time: 1.4514  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 350/1349]  eta: 0:24:11  lr: 0.000018  loss: 0.3780  time: 1.4516  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 400/1349]  eta: 0:22:58  lr: 0.000018  loss: 0.5058  time: 1.4507  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 450/1349]  eta: 0:21:45  lr: 0.000018  loss: 0.6365  time: 1.4490  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 500/1349]  eta: 0:20:33  lr: 0.000018  loss: 0.5501  time: 1.4548  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 550/1349]  eta: 0:19:20  lr: 0.000018  loss: 0.4369  time: 1.4506  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 600/1349]  eta: 0:18:07  lr: 0.000018  loss: 0.3527  time: 1.4486  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 650/1349]  eta: 0:16:55  lr: 0.000018  loss: 0.4733  time: 1.4554  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 700/1349]  eta: 0:15:42  lr: 0.000018  loss: 0.6311  time: 1.4550  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 750/1349]  eta: 0:14:29  lr: 0.000018  loss: 0.4707  time: 1.4502  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 800/1349]  eta: 0:13:17  lr: 0.000018  loss: 0.4236  time: 1.4514  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 850/1349]  eta: 0:12:04  lr: 0.000018  loss: 0.4596  time: 1.4510  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 900/1349]  eta: 0:10:51  lr: 0.000018  loss: 0.4828  time: 1.4499  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [ 950/1349]  eta: 0:09:39  lr: 0.000018  loss: 0.3957  time: 1.4516  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [1000/1349]  eta: 0:08:26  lr: 0.000018  loss: 0.2997  time: 1.4468  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [1050/1349]  eta: 0:07:14  lr: 0.000018  loss: 0.4311  time: 1.4507  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [1100/1349]  eta: 0:06:01  lr: 0.000018  loss: 0.5304  time: 1.4540  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [1150/1349]  eta: 0:04:48  lr: 0.000018  loss: 0.3966  time: 1.4529  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [1200/1349]  eta: 0:03:36  lr: 0.000018  loss: 0.3507  time: 1.4521  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [1250/1349]  eta: 0:02:23  lr: 0.000018  loss: 0.4597  time: 1.4482  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [1300/1349]  eta: 0:01:11  lr: 0.000018  loss: 0.4506  time: 1.4498  data: 0.0001  max mem: 26568
+Train Epoch: [2]  [1348/1349]  eta: 0:00:01  lr: 0.000018  loss: 0.5895  time: 1.4469  data: 0.0002  max mem: 26568
+Train Epoch: [2] Total time: 0:32:38 (1.4516 s / it)
+Averaged stats: lr: 0.0000  loss: 0.4500
+Evaluation:  [  0/110]  eta: 0:02:37  acc: 0.7500 (0.7500)  time: 1.4323  data: 1.0332  max mem: 26568
+Evaluation:  [ 50/110]  eta: 0:00:23  acc: 0.7500 (0.7475)  time: 0.3651  data: 0.0002  max mem: 26568
+Evaluation:  [100/110]  eta: 0:00:03  acc: 0.7500 (0.7580)  time: 0.3666  data: 0.0002  max mem: 26568
+Evaluation:  [109/110]  eta: 0:00:00  acc: 0.7500 (0.7572)  time: 0.3455  data: 0.0002  max mem: 26568
+Evaluation: Total time: 0:00:41 (0.3763 s / it)
+Averaged stats: acc: 0.7583
+Evaluation:  [  0/109]  eta: 0:02:31  acc: 0.7500 (0.7500)  time: 1.3930  data: 1.0146  max mem: 26568
+Evaluation:  [ 50/109]  eta: 0:00:22  acc: 0.7500 (0.7806)  time: 0.3649  data: 0.0002  max mem: 26568
+Evaluation:  [100/109]  eta: 0:00:03  acc: 0.7500 (0.7717)  time: 0.3678  data: 0.0002  max mem: 26568
+Evaluation:  [108/109]  eta: 0:00:00  acc: 0.8125 (0.7715)  time: 0.3622  data: 0.0002  max mem: 26568
+Evaluation: Total time: 0:00:41 (0.3767 s / it)
+Averaged stats: acc: 0.7599
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_val_epoch2.json
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_test_epoch2.json
+Train Epoch: [3]  [   0/1349]  eta: 1:18:20  lr: 0.000016  loss: 0.4686  time: 3.4841  data: 1.4614  max mem: 26568
+Train Epoch: [3]  [  50/1349]  eta: 0:32:03  lr: 0.000016  loss: 0.3501  time: 1.4411  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 100/1349]  eta: 0:30:23  lr: 0.000016  loss: 0.2516  time: 1.4371  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 150/1349]  eta: 0:29:04  lr: 0.000016  loss: 0.3385  time: 1.4445  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 200/1349]  eta: 0:27:48  lr: 0.000016  loss: 0.3616  time: 1.4460  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 250/1349]  eta: 0:26:35  lr: 0.000016  loss: 0.3816  time: 1.4462  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 300/1349]  eta: 0:25:22  lr: 0.000016  loss: 0.4324  time: 1.4543  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 350/1349]  eta: 0:24:09  lr: 0.000016  loss: 0.5212  time: 1.4509  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 400/1349]  eta: 0:22:57  lr: 0.000016  loss: 0.6414  time: 1.4513  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 450/1349]  eta: 0:21:44  lr: 0.000016  loss: 0.4208  time: 1.4542  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 500/1349]  eta: 0:20:32  lr: 0.000016  loss: 0.3257  time: 1.4519  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 550/1349]  eta: 0:19:19  lr: 0.000016  loss: 0.4082  time: 1.4515  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 600/1349]  eta: 0:18:06  lr: 0.000016  loss: 0.3716  time: 1.4507  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 650/1349]  eta: 0:16:54  lr: 0.000016  loss: 0.4414  time: 1.4533  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 700/1349]  eta: 0:15:41  lr: 0.000016  loss: 0.2699  time: 1.4517  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 750/1349]  eta: 0:14:29  lr: 0.000016  loss: 0.4648  time: 1.4509  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 800/1349]  eta: 0:13:16  lr: 0.000016  loss: 0.3639  time: 1.4505  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 850/1349]  eta: 0:12:04  lr: 0.000016  loss: 0.3902  time: 1.4504  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 900/1349]  eta: 0:10:51  lr: 0.000016  loss: 0.3492  time: 1.4511  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [ 950/1349]  eta: 0:09:38  lr: 0.000016  loss: 0.3768  time: 1.4486  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [1000/1349]  eta: 0:08:26  lr: 0.000016  loss: 0.4981  time: 1.4473  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [1050/1349]  eta: 0:07:13  lr: 0.000016  loss: 0.3282  time: 1.4491  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [1100/1349]  eta: 0:06:01  lr: 0.000016  loss: 0.3625  time: 1.4493  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [1150/1349]  eta: 0:04:48  lr: 0.000016  loss: 0.3647  time: 1.4556  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [1200/1349]  eta: 0:03:36  lr: 0.000016  loss: 0.3369  time: 1.4499  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [1250/1349]  eta: 0:02:23  lr: 0.000016  loss: 0.4865  time: 1.4489  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [1300/1349]  eta: 0:01:11  lr: 0.000016  loss: 0.3477  time: 1.4533  data: 0.0001  max mem: 26568
+Train Epoch: [3]  [1348/1349]  eta: 0:00:01  lr: 0.000016  loss: 0.3790  time: 1.4453  data: 0.0002  max mem: 26568
+Train Epoch: [3] Total time: 0:32:37 (1.4512 s / it)
+Averaged stats: lr: 0.0000  loss: 0.3833
+Evaluation:  [  0/110]  eta: 0:02:37  acc: 0.8125 (0.8125)  time: 1.4309  data: 0.9950  max mem: 26568
+Evaluation:  [ 50/110]  eta: 0:00:23  acc: 0.7500 (0.7794)  time: 0.3657  data: 0.0002  max mem: 26568
+Evaluation:  [100/110]  eta: 0:00:03  acc: 0.7500 (0.7649)  time: 0.3660  data: 0.0002  max mem: 26568
+Evaluation:  [109/110]  eta: 0:00:00  acc: 0.7500 (0.7629)  time: 0.3468  data: 0.0001  max mem: 26568
+Evaluation: Total time: 0:00:41 (0.3758 s / it)
+Averaged stats: acc: 0.7647
+Evaluation:  [  0/109]  eta: 0:02:48  acc: 0.5625 (0.5625)  time: 1.5460  data: 1.0935  max mem: 26568
+Evaluation:  [ 50/109]  eta: 0:00:23  acc: 0.8125 (0.7978)  time: 0.3662  data: 0.0002  max mem: 26568
+Evaluation:  [100/109]  eta: 0:00:03  acc: 0.8125 (0.7785)  time: 0.3689  data: 0.0002  max mem: 26568
+Evaluation:  [108/109]  eta: 0:00:00  acc: 0.8125 (0.7761)  time: 0.3612  data: 0.0002  max mem: 26568
+Evaluation: Total time: 0:00:41 (0.3789 s / it)
+Averaged stats: acc: 0.7631
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_val_epoch3.json
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_test_epoch3.json
+Train Epoch: [4]  [   0/1349]  eta: 1:12:18  lr: 0.000013  loss: 0.2895  time: 3.2164  data: 1.3157  max mem: 26568
+Train Epoch: [4]  [  50/1349]  eta: 0:32:01  lr: 0.000013  loss: 0.3366  time: 1.4461  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 100/1349]  eta: 0:30:26  lr: 0.000013  loss: 0.3268  time: 1.4457  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 150/1349]  eta: 0:29:06  lr: 0.000013  loss: 0.5114  time: 1.4451  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 200/1349]  eta: 0:27:50  lr: 0.000013  loss: 0.1705  time: 1.4473  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 250/1349]  eta: 0:26:36  lr: 0.000013  loss: 0.2807  time: 1.4499  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 300/1349]  eta: 0:25:23  lr: 0.000013  loss: 0.2499  time: 1.4507  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 350/1349]  eta: 0:24:10  lr: 0.000013  loss: 0.3379  time: 1.4517  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 400/1349]  eta: 0:22:58  lr: 0.000013  loss: 0.4567  time: 1.4512  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 450/1349]  eta: 0:21:45  lr: 0.000013  loss: 0.3065  time: 1.4501  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 500/1349]  eta: 0:20:32  lr: 0.000013  loss: 0.2273  time: 1.4505  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 550/1349]  eta: 0:19:20  lr: 0.000013  loss: 0.2924  time: 1.4533  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 600/1349]  eta: 0:18:07  lr: 0.000013  loss: 0.3728  time: 1.4515  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 650/1349]  eta: 0:16:55  lr: 0.000013  loss: 0.3047  time: 1.4513  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 700/1349]  eta: 0:15:42  lr: 0.000013  loss: 0.3930  time: 1.4515  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 750/1349]  eta: 0:14:29  lr: 0.000013  loss: 0.2456  time: 1.4554  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 800/1349]  eta: 0:13:17  lr: 0.000013  loss: 0.3785  time: 1.4519  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 850/1349]  eta: 0:12:04  lr: 0.000013  loss: 0.4538  time: 1.4520  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 900/1349]  eta: 0:10:52  lr: 0.000013  loss: 0.2441  time: 1.4507  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [ 950/1349]  eta: 0:09:39  lr: 0.000013  loss: 0.2057  time: 1.4525  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [1000/1349]  eta: 0:08:26  lr: 0.000013  loss: 0.3157  time: 1.4554  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [1050/1349]  eta: 0:07:14  lr: 0.000013  loss: 0.3529  time: 1.4488  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [1100/1349]  eta: 0:06:01  lr: 0.000013  loss: 0.4072  time: 1.4490  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [1150/1349]  eta: 0:04:48  lr: 0.000013  loss: 0.4400  time: 1.4529  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [1200/1349]  eta: 0:03:36  lr: 0.000013  loss: 0.3304  time: 1.4536  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [1250/1349]  eta: 0:02:23  lr: 0.000013  loss: 0.4347  time: 1.4512  data: 0.0001  max mem: 26568
+Train Epoch: [4]  [1300/1349]  eta: 0:01:11  lr: 0.000013  loss: 0.2966  time: 1.4510  data: 0.0001  max mem: 26569
+Train Epoch: [4]  [1348/1349]  eta: 0:00:01  lr: 0.000013  loss: 0.2908  time: 1.4467  data: 0.0002  max mem: 26569
+Train Epoch: [4] Total time: 0:32:39 (1.4523 s / it)
+Averaged stats: lr: 0.0000  loss: 0.3141
+Evaluation:  [  0/110]  eta: 0:02:32  acc: 0.7500 (0.7500)  time: 1.3901  data: 0.9976  max mem: 26569
+Evaluation:  [ 50/110]  eta: 0:00:23  acc: 0.7500 (0.7757)  time: 0.3677  data: 0.0002  max mem: 26569
+Evaluation:  [100/110]  eta: 0:00:03  acc: 0.7500 (0.7710)  time: 0.3678  data: 0.0002  max mem: 26569
+Evaluation:  [109/110]  eta: 0:00:00  acc: 0.7500 (0.7675)  time: 0.3477  data: 0.0002  max mem: 26569
+Evaluation: Total time: 0:00:41 (0.3753 s / it)
+Averaged stats: acc: 0.7715
+Evaluation:  [  0/109]  eta: 0:02:32  acc: 0.7500 (0.7500)  time: 1.3947  data: 1.0213  max mem: 26569
+Evaluation:  [ 50/109]  eta: 0:00:22  acc: 0.7500 (0.8076)  time: 0.3691  data: 0.0002  max mem: 26569
+Evaluation:  [100/109]  eta: 0:00:03  acc: 0.7500 (0.7927)  time: 0.3667  data: 0.0002  max mem: 26569
+Evaluation:  [108/109]  eta: 0:00:00  acc: 0.7500 (0.7905)  time: 0.3632  data: 0.0002  max mem: 26569
+Evaluation: Total time: 0:00:41 (0.3782 s / it)
+Averaged stats: acc: 0.7796
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_val_epoch4.json
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_test_epoch4.json
+Train Epoch: [5]  [   0/1349]  eta: 1:16:26  lr: 0.000011  loss: 0.4031  time: 3.3998  data: 1.2848  max mem: 26569
+Train Epoch: [5]  [  50/1349]  eta: 0:32:01  lr: 0.000011  loss: 0.4369  time: 1.4409  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 100/1349]  eta: 0:30:23  lr: 0.000011  loss: 0.1507  time: 1.4411  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 150/1349]  eta: 0:29:04  lr: 0.000011  loss: 0.3398  time: 1.4452  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 200/1349]  eta: 0:27:49  lr: 0.000011  loss: 0.2389  time: 1.4460  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 250/1349]  eta: 0:26:36  lr: 0.000011  loss: 0.3471  time: 1.4493  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 300/1349]  eta: 0:25:22  lr: 0.000011  loss: 0.1222  time: 1.4483  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 350/1349]  eta: 0:24:10  lr: 0.000011  loss: 0.2718  time: 1.4525  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 400/1349]  eta: 0:22:57  lr: 0.000011  loss: 0.2913  time: 1.4541  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 450/1349]  eta: 0:21:45  lr: 0.000011  loss: 0.2411  time: 1.4513  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 500/1349]  eta: 0:20:32  lr: 0.000011  loss: 0.2396  time: 1.4559  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 550/1349]  eta: 0:19:20  lr: 0.000011  loss: 0.1801  time: 1.4528  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 600/1349]  eta: 0:18:07  lr: 0.000011  loss: 0.2559  time: 1.4537  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 650/1349]  eta: 0:16:55  lr: 0.000011  loss: 0.4021  time: 1.4569  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 700/1349]  eta: 0:15:42  lr: 0.000011  loss: 0.3212  time: 1.4548  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 750/1349]  eta: 0:14:30  lr: 0.000011  loss: 0.2897  time: 1.4521  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 800/1349]  eta: 0:13:17  lr: 0.000011  loss: 0.2133  time: 1.4520  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 850/1349]  eta: 0:12:04  lr: 0.000011  loss: 0.2442  time: 1.4523  data: 0.0001  max mem: 26569
+Train Epoch: [5]  [ 900/1349]  eta: 0:10:52  lr: 0.000011  loss: 0.3524  time: 1.4528  data: 0.0001  max mem: 26571
+Train Epoch: [5]  [ 950/1349]  eta: 0:09:39  lr: 0.000011  loss: 0.1323  time: 1.4522  data: 0.0001  max mem: 26571
+Train Epoch: [5]  [1000/1349]  eta: 0:08:27  lr: 0.000011  loss: 0.1986  time: 1.4512  data: 0.0001  max mem: 26571
+Train Epoch: [5]  [1050/1349]  eta: 0:07:14  lr: 0.000011  loss: 0.1759  time: 1.4492  data: 0.0001  max mem: 26571
+Train Epoch: [5]  [1100/1349]  eta: 0:06:01  lr: 0.000011  loss: 0.1715  time: 1.4511  data: 0.0001  max mem: 26571
+Train Epoch: [5]  [1150/1349]  eta: 0:04:49  lr: 0.000011  loss: 0.3053  time: 1.4548  data: 0.0001  max mem: 26571
+Train Epoch: [5]  [1200/1349]  eta: 0:03:36  lr: 0.000011  loss: 0.3316  time: 1.4474  data: 0.0001  max mem: 26571
+Train Epoch: [5]  [1250/1349]  eta: 0:02:23  lr: 0.000011  loss: 0.2364  time: 1.4475  data: 0.0001  max mem: 26571
+Train Epoch: [5]  [1300/1349]  eta: 0:01:11  lr: 0.000011  loss: 0.2723  time: 1.4501  data: 0.0001  max mem: 26571
+Train Epoch: [5]  [1348/1349]  eta: 0:00:01  lr: 0.000011  loss: 0.1580  time: 1.4463  data: 0.0002  max mem: 26571
+Train Epoch: [5] Total time: 0:32:39 (1.4524 s / it)
+Averaged stats: lr: 0.0000  loss: 0.2559
+Evaluation:  [  0/110]  eta: 0:02:29  acc: 0.8750 (0.8750)  time: 1.3564  data: 0.9763  max mem: 26571
+Evaluation:  [ 50/110]  eta: 0:00:23  acc: 0.7500 (0.7721)  time: 0.3663  data: 0.0002  max mem: 26571
+Evaluation:  [100/110]  eta: 0:00:03  acc: 0.7500 (0.7735)  time: 0.3682  data: 0.0002  max mem: 26571
+Evaluation:  [109/110]  eta: 0:00:00  acc: 0.8125 (0.7743)  time: 0.3469  data: 0.0002  max mem: 26571
+Evaluation: Total time: 0:00:41 (0.3791 s / it)
+Averaged stats: acc: 0.7742
+Evaluation:  [  0/109]  eta: 0:02:44  acc: 0.8125 (0.8125)  time: 1.5110  data: 1.0925  max mem: 26571
+Evaluation:  [ 50/109]  eta: 0:00:23  acc: 0.7500 (0.7953)  time: 0.3654  data: 0.0002  max mem: 26571
+Evaluation:  [100/109]  eta: 0:00:03  acc: 0.8125 (0.7877)  time: 0.3676  data: 0.0002  max mem: 26571
+Evaluation:  [108/109]  eta: 0:00:00  acc: 0.8125 (0.7865)  time: 0.3618  data: 0.0002  max mem: 26571
+Evaluation: Total time: 0:00:41 (0.3787 s / it)
+Averaged stats: acc: 0.7826
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_val_epoch5.json
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_test_epoch5.json
+Train Epoch: [6]  [   0/1349]  eta: 1:23:13  lr: 0.000008  loss: 0.1671  time: 3.7015  data: 2.1903  max mem: 26571
+Train Epoch: [6]  [  50/1349]  eta: 0:32:08  lr: 0.000008  loss: 0.2083  time: 1.4440  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 100/1349]  eta: 0:30:28  lr: 0.000008  loss: 0.3943  time: 1.4437  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 150/1349]  eta: 0:29:08  lr: 0.000008  loss: 0.1185  time: 1.4452  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 200/1349]  eta: 0:27:52  lr: 0.000008  loss: 0.2417  time: 1.4499  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 250/1349]  eta: 0:26:38  lr: 0.000008  loss: 0.1279  time: 1.4456  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 300/1349]  eta: 0:25:24  lr: 0.000008  loss: 0.1889  time: 1.4482  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 350/1349]  eta: 0:24:11  lr: 0.000008  loss: 0.0867  time: 1.4505  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 400/1349]  eta: 0:22:58  lr: 0.000008  loss: 0.2580  time: 1.4512  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 450/1349]  eta: 0:21:45  lr: 0.000008  loss: 0.1636  time: 1.4505  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 500/1349]  eta: 0:20:32  lr: 0.000008  loss: 0.1314  time: 1.4490  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 550/1349]  eta: 0:19:20  lr: 0.000008  loss: 0.3106  time: 1.4486  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 600/1349]  eta: 0:18:07  lr: 0.000008  loss: 0.0929  time: 1.4514  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 650/1349]  eta: 0:16:55  lr: 0.000008  loss: 0.0743  time: 1.4519  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 700/1349]  eta: 0:15:42  lr: 0.000008  loss: 0.1846  time: 1.4500  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 750/1349]  eta: 0:14:29  lr: 0.000008  loss: 0.2063  time: 1.4478  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 800/1349]  eta: 0:13:17  lr: 0.000008  loss: 0.2249  time: 1.4497  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 850/1349]  eta: 0:12:04  lr: 0.000008  loss: 0.1835  time: 1.4492  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 900/1349]  eta: 0:10:51  lr: 0.000008  loss: 0.2735  time: 1.4532  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [ 950/1349]  eta: 0:09:39  lr: 0.000008  loss: 0.1383  time: 1.4507  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [1000/1349]  eta: 0:08:26  lr: 0.000008  loss: 0.3522  time: 1.4549  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [1050/1349]  eta: 0:07:14  lr: 0.000008  loss: 0.1568  time: 1.4517  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [1100/1349]  eta: 0:06:01  lr: 0.000008  loss: 0.3095  time: 1.4523  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [1150/1349]  eta: 0:04:48  lr: 0.000008  loss: 0.1508  time: 1.4535  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [1200/1349]  eta: 0:03:36  lr: 0.000008  loss: 0.2037  time: 1.4494  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [1250/1349]  eta: 0:02:23  lr: 0.000008  loss: 0.1691  time: 1.4508  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [1300/1349]  eta: 0:01:11  lr: 0.000008  loss: 0.3339  time: 1.4503  data: 0.0001  max mem: 26571
+Train Epoch: [6]  [1348/1349]  eta: 0:00:01  lr: 0.000008  loss: 0.6438  time: 1.4472  data: 0.0002  max mem: 26571
+Train Epoch: [6] Total time: 0:32:38 (1.4518 s / it)
+Averaged stats: lr: 0.0000  loss: 0.2067
+Evaluation:  [  0/110]  eta: 0:02:47  acc: 0.8125 (0.8125)  time: 1.5188  data: 1.0787  max mem: 26571
+Evaluation:  [ 50/110]  eta: 0:00:23  acc: 0.7500 (0.7794)  time: 0.3700  data: 0.0002  max mem: 26571
+Evaluation:  [100/110]  eta: 0:00:03  acc: 0.7500 (0.7766)  time: 0.3656  data: 0.0002  max mem: 26571
+Evaluation:  [109/110]  eta: 0:00:00  acc: 0.8125 (0.7766)  time: 0.3475  data: 0.0002  max mem: 26571
+Evaluation: Total time: 0:00:41 (0.3768 s / it)
+Averaged stats: acc: 0.7776
+Evaluation:  [  0/109]  eta: 0:02:33  acc: 0.8125 (0.8125)  time: 1.4082  data: 1.0330  max mem: 26571
+Evaluation:  [ 50/109]  eta: 0:00:23  acc: 0.7500 (0.7978)  time: 0.3690  data: 0.0002  max mem: 26571
+Evaluation:  [100/109]  eta: 0:00:03  acc: 0.7500 (0.7877)  time: 0.3671  data: 0.0002  max mem: 26571
+Evaluation:  [108/109]  eta: 0:00:00  acc: 0.7500 (0.7842)  time: 0.3599  data: 0.0002  max mem: 26571
+Evaluation: Total time: 0:00:41 (0.3789 s / it)
+Averaged stats: acc: 0.7869
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_val_epoch6.json
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_test_epoch6.json
+Train Epoch: [7]  [   0/1349]  eta: 1:23:37  lr: 0.000005  loss: 0.1234  time: 3.7193  data: 1.7406  max mem: 26571
+Train Epoch: [7]  [  50/1349]  eta: 0:32:07  lr: 0.000005  loss: 0.1070  time: 1.4415  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 100/1349]  eta: 0:30:25  lr: 0.000005  loss: 0.0978  time: 1.4390  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 150/1349]  eta: 0:29:05  lr: 0.000005  loss: 0.1957  time: 1.4428  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 200/1349]  eta: 0:27:49  lr: 0.000005  loss: 0.1365  time: 1.4474  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 250/1349]  eta: 0:26:36  lr: 0.000005  loss: 0.1737  time: 1.4501  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 300/1349]  eta: 0:25:23  lr: 0.000005  loss: 0.2588  time: 1.4497  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 350/1349]  eta: 0:24:10  lr: 0.000005  loss: 0.2079  time: 1.4492  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 400/1349]  eta: 0:22:57  lr: 0.000005  loss: 0.2230  time: 1.4520  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 450/1349]  eta: 0:21:45  lr: 0.000005  loss: 0.3504  time: 1.4532  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 500/1349]  eta: 0:20:32  lr: 0.000005  loss: 0.1441  time: 1.4525  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 550/1349]  eta: 0:19:20  lr: 0.000005  loss: 0.1483  time: 1.4534  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 600/1349]  eta: 0:18:07  lr: 0.000005  loss: 0.2782  time: 1.4514  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 650/1349]  eta: 0:16:54  lr: 0.000005  loss: 0.1416  time: 1.4527  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 700/1349]  eta: 0:15:42  lr: 0.000005  loss: 0.2741  time: 1.4521  data: 0.0001  max mem: 26571
+Train Epoch: [7]  [ 750/1349]  eta: 0:14:29  lr: 0.000005  loss: 0.2179  time: 1.4540  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [ 800/1349]  eta: 0:13:17  lr: 0.000005  loss: 0.1330  time: 1.4535  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [ 850/1349]  eta: 0:12:04  lr: 0.000005  loss: 0.1796  time: 1.4513  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [ 900/1349]  eta: 0:10:51  lr: 0.000005  loss: 0.1395  time: 1.4499  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [ 950/1349]  eta: 0:09:39  lr: 0.000005  loss: 0.1184  time: 1.4534  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [1000/1349]  eta: 0:08:26  lr: 0.000005  loss: 0.0974  time: 1.4542  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [1050/1349]  eta: 0:07:14  lr: 0.000005  loss: 0.1806  time: 1.4510  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [1100/1349]  eta: 0:06:01  lr: 0.000005  loss: 0.2031  time: 1.4519  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [1150/1349]  eta: 0:04:48  lr: 0.000005  loss: 0.1931  time: 1.4512  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [1200/1349]  eta: 0:03:36  lr: 0.000005  loss: 0.1918  time: 1.4488  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [1250/1349]  eta: 0:02:23  lr: 0.000005  loss: 0.2695  time: 1.4523  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [1300/1349]  eta: 0:01:11  lr: 0.000005  loss: 0.2319  time: 1.4535  data: 0.0001  max mem: 26573
+Train Epoch: [7]  [1348/1349]  eta: 0:00:01  lr: 0.000005  loss: 0.4102  time: 1.4451  data: 0.0002  max mem: 26573
+Train Epoch: [7] Total time: 0:32:38 (1.4520 s / it)
+Averaged stats: lr: 0.0000  loss: 0.1698
+Evaluation:  [  0/110]  eta: 0:02:29  acc: 0.8125 (0.8125)  time: 1.3559  data: 0.9482  max mem: 26573
+Evaluation:  [ 50/110]  eta: 0:00:23  acc: 0.7500 (0.7708)  time: 0.3688  data: 0.0002  max mem: 26573
+Evaluation:  [100/110]  eta: 0:00:03  acc: 0.8125 (0.7704)  time: 0.3661  data: 0.0002  max mem: 26573
+Evaluation:  [109/110]  eta: 0:00:00  acc: 0.8125 (0.7698)  time: 0.3476  data: 0.0002  max mem: 26573
+Evaluation: Total time: 0:00:41 (0.3757 s / it)
+Averaged stats: acc: 0.7753
+Evaluation:  [  0/109]  eta: 0:02:32  acc: 0.8125 (0.8125)  time: 1.4014  data: 1.0036  max mem: 26573
+Evaluation:  [ 50/109]  eta: 0:00:22  acc: 0.8125 (0.8150)  time: 0.3645  data: 0.0002  max mem: 26573
+Evaluation:  [100/109]  eta: 0:00:03  acc: 0.8125 (0.7995)  time: 0.3687  data: 0.0002  max mem: 26573
+Evaluation:  [108/109]  eta: 0:00:00  acc: 0.8125 (0.7962)  time: 0.3621  data: 0.0002  max mem: 26573
+Evaluation: Total time: 0:00:41 (0.3775 s / it)
+Averaged stats: acc: 0.7867
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_val_epoch7.json
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_test_epoch7.json
+Train Epoch: [8]  [   0/1349]  eta: 1:12:34  lr: 0.000003  loss: 0.3175  time: 3.2281  data: 1.5984  max mem: 26573
+Train Epoch: [8]  [  50/1349]  eta: 0:32:03  lr: 0.000003  loss: 0.1934  time: 1.4452  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 100/1349]  eta: 0:30:28  lr: 0.000003  loss: 0.1322  time: 1.4469  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 150/1349]  eta: 0:29:10  lr: 0.000003  loss: 0.0982  time: 1.4510  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 200/1349]  eta: 0:27:55  lr: 0.000003  loss: 0.1371  time: 1.4503  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 250/1349]  eta: 0:26:41  lr: 0.000003  loss: 0.1540  time: 1.4517  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 300/1349]  eta: 0:25:27  lr: 0.000003  loss: 0.1630  time: 1.4541  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 350/1349]  eta: 0:24:14  lr: 0.000003  loss: 0.0479  time: 1.4551  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 400/1349]  eta: 0:23:00  lr: 0.000003  loss: 0.1757  time: 1.4524  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 450/1349]  eta: 0:21:47  lr: 0.000003  loss: 0.0612  time: 1.4516  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 500/1349]  eta: 0:20:35  lr: 0.000003  loss: 0.1182  time: 1.4542  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 550/1349]  eta: 0:19:22  lr: 0.000003  loss: 0.1348  time: 1.4529  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 600/1349]  eta: 0:18:09  lr: 0.000003  loss: 0.1231  time: 1.4502  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 650/1349]  eta: 0:16:56  lr: 0.000003  loss: 0.2239  time: 1.4536  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 700/1349]  eta: 0:15:43  lr: 0.000003  loss: 0.0340  time: 1.4541  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 750/1349]  eta: 0:14:30  lr: 0.000003  loss: 0.0715  time: 1.4477  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 800/1349]  eta: 0:13:18  lr: 0.000003  loss: 0.1873  time: 1.4539  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 850/1349]  eta: 0:12:05  lr: 0.000003  loss: 0.1431  time: 1.4538  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 900/1349]  eta: 0:10:52  lr: 0.000003  loss: 0.0751  time: 1.4547  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [ 950/1349]  eta: 0:09:40  lr: 0.000003  loss: 0.0471  time: 1.4516  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [1000/1349]  eta: 0:08:27  lr: 0.000003  loss: 0.0309  time: 1.4521  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [1050/1349]  eta: 0:07:14  lr: 0.000003  loss: 0.4178  time: 1.4525  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [1100/1349]  eta: 0:06:01  lr: 0.000003  loss: 0.1496  time: 1.4507  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [1150/1349]  eta: 0:04:49  lr: 0.000003  loss: 0.0490  time: 1.4509  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [1200/1349]  eta: 0:03:36  lr: 0.000003  loss: 0.1544  time: 1.4519  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [1250/1349]  eta: 0:02:23  lr: 0.000003  loss: 0.0886  time: 1.4525  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [1300/1349]  eta: 0:01:11  lr: 0.000003  loss: 0.0561  time: 1.4528  data: 0.0001  max mem: 26573
+Train Epoch: [8]  [1348/1349]  eta: 0:00:01  lr: 0.000003  loss: 0.1209  time: 1.4457  data: 0.0002  max mem: 26573
+Train Epoch: [8] Total time: 0:32:40 (1.4534 s / it)
+Averaged stats: lr: 0.0000  loss: 0.1469
+Evaluation:  [  0/110]  eta: 0:02:40  acc: 0.8125 (0.8125)  time: 1.4596  data: 1.0555  max mem: 26573
+Evaluation:  [ 50/110]  eta: 0:00:23  acc: 0.7500 (0.7647)  time: 0.3657  data: 0.0002  max mem: 26573
+Evaluation:  [100/110]  eta: 0:00:03  acc: 0.7500 (0.7649)  time: 0.3696  data: 0.0002  max mem: 26573
+Evaluation:  [109/110]  eta: 0:00:00  acc: 0.8125 (0.7635)  time: 0.3491  data: 0.0002  max mem: 26573
+Evaluation: Total time: 0:00:41 (0.3774 s / it)
+Averaged stats: acc: 0.7749
+Evaluation:  [  0/109]  eta: 0:02:29  acc: 0.7500 (0.7500)  time: 1.3704  data: 0.9899  max mem: 26573
+Evaluation:  [ 50/109]  eta: 0:00:22  acc: 0.7500 (0.7990)  time: 0.3669  data: 0.0002  max mem: 26573
+Evaluation:  [100/109]  eta: 0:00:03  acc: 0.7500 (0.7908)  time: 0.3678  data: 0.0002  max mem: 26573
+Evaluation:  [108/109]  eta: 0:00:00  acc: 0.7500 (0.7876)  time: 0.3614  data: 0.0002  max mem: 26573
+Evaluation: Total time: 0:00:41 (0.3770 s / it)
+Averaged stats: acc: 0.7863
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_val_epoch8.json
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_test_epoch8.json
+Train Epoch: [9]  [   0/1349]  eta: 1:20:18  lr: 0.000001  loss: 0.1075  time: 3.5716  data: 1.6185  max mem: 26573
+Train Epoch: [9]  [  50/1349]  eta: 0:32:14  lr: 0.000001  loss: 0.1289  time: 1.4468  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 100/1349]  eta: 0:30:35  lr: 0.000001  loss: 0.2615  time: 1.4507  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 150/1349]  eta: 0:29:14  lr: 0.000001  loss: 0.1520  time: 1.4524  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 200/1349]  eta: 0:27:57  lr: 0.000001  loss: 0.1726  time: 1.4493  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 250/1349]  eta: 0:26:42  lr: 0.000001  loss: 0.1383  time: 1.4523  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 300/1349]  eta: 0:25:28  lr: 0.000001  loss: 0.1471  time: 1.4514  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 350/1349]  eta: 0:24:14  lr: 0.000001  loss: 0.1207  time: 1.4515  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 400/1349]  eta: 0:23:01  lr: 0.000001  loss: 0.0400  time: 1.4547  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 450/1349]  eta: 0:21:48  lr: 0.000001  loss: 0.1062  time: 1.4524  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 500/1349]  eta: 0:20:35  lr: 0.000001  loss: 0.1124  time: 1.4510  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 550/1349]  eta: 0:19:22  lr: 0.000001  loss: 0.1523  time: 1.4518  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 600/1349]  eta: 0:18:09  lr: 0.000001  loss: 0.2100  time: 1.4528  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 650/1349]  eta: 0:16:56  lr: 0.000001  loss: 0.1126  time: 1.4540  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 700/1349]  eta: 0:15:43  lr: 0.000001  loss: 0.0859  time: 1.4511  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 750/1349]  eta: 0:14:30  lr: 0.000001  loss: 0.2318  time: 1.4486  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 800/1349]  eta: 0:13:18  lr: 0.000001  loss: 0.1851  time: 1.4518  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 850/1349]  eta: 0:12:05  lr: 0.000001  loss: 0.2068  time: 1.4543  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 900/1349]  eta: 0:10:52  lr: 0.000001  loss: 0.0967  time: 1.4510  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [ 950/1349]  eta: 0:09:39  lr: 0.000001  loss: 0.1848  time: 1.4535  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [1000/1349]  eta: 0:08:27  lr: 0.000001  loss: 0.0964  time: 1.4535  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [1050/1349]  eta: 0:07:14  lr: 0.000001  loss: 0.1835  time: 1.4490  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [1100/1349]  eta: 0:06:01  lr: 0.000001  loss: 0.1138  time: 1.4534  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [1150/1349]  eta: 0:04:49  lr: 0.000001  loss: 0.0883  time: 1.4506  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [1200/1349]  eta: 0:03:36  lr: 0.000001  loss: 0.2096  time: 1.4518  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [1250/1349]  eta: 0:02:23  lr: 0.000001  loss: 0.0982  time: 1.4529  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [1300/1349]  eta: 0:01:11  lr: 0.000001  loss: 0.1340  time: 1.4468  data: 0.0001  max mem: 26573
+Train Epoch: [9]  [1348/1349]  eta: 0:00:01  lr: 0.000001  loss: 0.0491  time: 1.4478  data: 0.0002  max mem: 26573
+Train Epoch: [9] Total time: 0:32:39 (1.4529 s / it)
+Averaged stats: lr: 0.0000  loss: 0.1291
+Evaluation:  [  0/110]  eta: 0:02:27  acc: 0.8125 (0.8125)  time: 1.3367  data: 0.9487  max mem: 26573
+Evaluation:  [ 50/110]  eta: 0:00:23  acc: 0.7500 (0.7770)  time: 0.3681  data: 0.0002  max mem: 26573
+Evaluation:  [100/110]  eta: 0:00:03  acc: 0.7500 (0.7710)  time: 0.3664  data: 0.0002  max mem: 26573
+Evaluation:  [109/110]  eta: 0:00:00  acc: 0.7500 (0.7703)  time: 0.3481  data: 0.0002  max mem: 26573
+Evaluation: Total time: 0:00:41 (0.3772 s / it)
+Averaged stats: acc: 0.7766
+Evaluation:  [  0/109]  eta: 0:02:29  acc: 0.7500 (0.7500)  time: 1.3694  data: 1.0013  max mem: 26573
+Evaluation:  [ 50/109]  eta: 0:00:23  acc: 0.7500 (0.7966)  time: 0.3684  data: 0.0002  max mem: 26573
+Evaluation:  [100/109]  eta: 0:00:03  acc: 0.7500 (0.7896)  time: 0.3652  data: 0.0002  max mem: 26573
+Evaluation:  [108/109]  eta: 0:00:00  acc: 0.7500 (0.7853)  time: 0.3595  data: 0.0002  max mem: 26573
+Evaluation: Total time: 0:00:41 (0.3775 s / it)
+Averaged stats: acc: 0.7842
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_val_epoch9.json
+result file saved to /projects/nlp/data/data/multimodal-gender-bias/outputs/NLVR/albef_4m_cc3m_neutral/result/nlvr2_test_epoch9.json
+Training time 5:42:28

@@ -1,0 +1,151 @@
+| distributed init (rank 3, word 4): env://
+| distributed init (rank 1, word 4): env://
+| distributed init (rank 2, word 4): env://
+| distributed init (rank 0, word 4): env://
+Creating dataset
+loading /projects/nlp/data/data/multimodal-gender-bias/data/ALBEF/mscoco/annotations/coco_train.hendrix.json
+number of training samples: 566747
+Creating model
+/embeddings/word_embeddings is tied
+/embeddings/position_embeddings is tied
+/embeddings/LayerNorm is tied
+/encoder/layer/0/crossattention/self/query is tied
+/encoder/layer/0/crossattention/self/key is tied
+/encoder/layer/0/crossattention/self/value is tied
+/encoder/layer/0/crossattention/output/dense is tied
+/encoder/layer/0/crossattention/output/LayerNorm is tied
+/encoder/layer/0/intermediate/dense is tied
+/encoder/layer/0/output/dense is tied
+/encoder/layer/0/output/LayerNorm is tied
+/encoder/layer/1/crossattention/self/query is tied
+/encoder/layer/1/crossattention/self/key is tied
+/encoder/layer/1/crossattention/self/value is tied
+/encoder/layer/1/crossattention/output/dense is tied
+/encoder/layer/1/crossattention/output/LayerNorm is tied
+/encoder/layer/1/intermediate/dense is tied
+/encoder/layer/1/output/dense is tied
+/encoder/layer/1/output/LayerNorm is tied
+/encoder/layer/2/crossattention/self/query is tied
+/encoder/layer/2/crossattention/self/key is tied
+/encoder/layer/2/crossattention/self/value is tied
+/encoder/layer/2/crossattention/output/dense is tied
+/encoder/layer/2/crossattention/output/LayerNorm is tied
+/encoder/layer/2/intermediate/dense is tied
+/encoder/layer/2/output/dense is tied
+/encoder/layer/2/output/LayerNorm is tied
+/encoder/layer/3/crossattention/self/query is tied
+/encoder/layer/3/crossattention/self/key is tied
+/encoder/layer/3/crossattention/self/value is tied
+/encoder/layer/3/crossattention/output/dense is tied
+/encoder/layer/3/crossattention/output/LayerNorm is tied
+/encoder/layer/3/intermediate/dense is tied
+/encoder/layer/3/output/dense is tied
+/encoder/layer/3/output/LayerNorm is tied
+/encoder/layer/4/crossattention/self/query is tied
+/encoder/layer/4/crossattention/self/key is tied
+/encoder/layer/4/crossattention/self/value is tied
+/encoder/layer/4/crossattention/output/dense is tied
+/encoder/layer/4/crossattention/output/LayerNorm is tied
+/encoder/layer/4/intermediate/dense is tied
+/encoder/layer/4/output/dense is tied
+/encoder/layer/4/output/LayerNorm is tied
+/encoder/layer/5/crossattention/self/query is tied
+/encoder/layer/5/crossattention/self/key is tied
+/encoder/layer/5/crossattention/self/value is tied
+/encoder/layer/5/crossattention/output/dense is tied
+/encoder/layer/5/crossattention/output/LayerNorm is tied
+/encoder/layer/5/intermediate/dense is tied
+/encoder/layer/5/output/dense is tied
+/encoder/layer/5/output/LayerNorm is tied
+/encoder/layer/6/crossattention/self/query is tied
+/encoder/layer/6/crossattention/self/key is tied
+/encoder/layer/6/crossattention/self/value is tied
+/encoder/layer/6/crossattention/output/dense is tied
+/encoder/layer/6/crossattention/output/LayerNorm is tied
+/encoder/layer/6/intermediate/dense is tied
+/encoder/layer/6/output/dense is tied
+/encoder/layer/6/output/LayerNorm is tied
+/encoder/layer/7/crossattention/self/query is tied
+/encoder/layer/7/crossattention/self/key is tied
+/encoder/layer/7/crossattention/self/value is tied
+/encoder/layer/7/crossattention/output/dense is tied
+/encoder/layer/7/crossattention/output/LayerNorm is tied
+/encoder/layer/7/intermediate/dense is tied
+/encoder/layer/7/output/dense is tied
+/encoder/layer/7/output/LayerNorm is tied
+/encoder/layer/8/crossattention/self/query is tied
+/encoder/layer/8/crossattention/self/key is tied
+/encoder/layer/8/crossattention/self/value is tied
+/encoder/layer/8/crossattention/output/dense is tied
+/encoder/layer/8/crossattention/output/LayerNorm is tied
+/encoder/layer/8/intermediate/dense is tied
+/encoder/layer/8/output/dense is tied
+/encoder/layer/8/output/LayerNorm is tied
+/encoder/layer/9/crossattention/self/query is tied
+/encoder/layer/9/crossattention/self/key is tied
+/encoder/layer/9/crossattention/self/value is tied
+/encoder/layer/9/crossattention/output/dense is tied
+/encoder/layer/9/crossattention/output/LayerNorm is tied
+/encoder/layer/9/intermediate/dense is tied
+/encoder/layer/9/output/dense is tied
+/encoder/layer/9/output/LayerNorm is tied
+/encoder/layer/10/crossattention/self/query is tied
+/encoder/layer/10/crossattention/self/key is tied
+/encoder/layer/10/crossattention/self/value is tied
+/encoder/layer/10/crossattention/output/dense is tied
+/encoder/layer/10/crossattention/output/LayerNorm is tied
+/encoder/layer/10/intermediate/dense is tied
+/encoder/layer/10/output/dense is tied
+/encoder/layer/10/output/LayerNorm is tied
+/encoder/layer/11/crossattention/self/query is tied
+/encoder/layer/11/crossattention/self/key is tied
+/encoder/layer/11/crossattention/self/value is tied
+/encoder/layer/11/crossattention/output/dense is tied
+/encoder/layer/11/crossattention/output/LayerNorm is tied
+/encoder/layer/11/intermediate/dense is tied
+/encoder/layer/11/output/dense is tied
+/encoder/layer/11/output/LayerNorm is tied
+resume checkpoint from /projects/nlp/data/data/multimodal-gender-bias/checkpoints/BLIP_base.pth
+Start training
+Train Epoch: [0]  [   0/1889]  eta: 4:38:46  lr: 0.000001  loss_ita: 1.4565  loss_itm: 0.6269  loss_lm: 3.3038  time: 8.8548  data: 2.9932  max mem: 29059
+Train Epoch: [0]  [  50/1889]  eta: 1:04:45  lr: 0.000027  loss_ita: 1.5605  loss_itm: 0.2214  loss_lm: 3.0796  time: 1.9849  data: 0.0002  max mem: 32017
+Train Epoch: [0]  [ 100/1889]  eta: 1:01:07  lr: 0.000054  loss_ita: 1.5015  loss_itm: 0.2584  loss_lm: 3.1929  time: 1.9889  data: 0.0002  max mem: 32019
+Train Epoch: [0]  [ 150/1889]  eta: 0:58:51  lr: 0.000080  loss_ita: 1.4736  loss_itm: 0.2426  loss_lm: 3.0668  time: 1.9862  data: 0.0002  max mem: 32019
+Train Epoch: [0]  [ 200/1889]  eta: 0:56:55  lr: 0.000080  loss_ita: 1.8164  loss_itm: 0.2889  loss_lm: 3.0768  time: 1.9953  data: 0.0002  max mem: 32019
+Train Epoch: [0]  [ 250/1889]  eta: 0:55:08  lr: 0.000076  loss_ita: 1.5924  loss_itm: 0.3201  loss_lm: 3.0442  time: 2.0131  data: 0.0002  max mem: 32019
+Train Epoch: [0]  [ 300/1889]  eta: 0:53:22  lr: 0.000072  loss_ita: 1.2911  loss_itm: 0.1996  loss_lm: 2.9995  time: 1.9995  data: 0.0002  max mem: 32019
+Train Epoch: [0]  [ 350/1889]  eta: 0:51:37  lr: 0.000068  loss_ita: 1.5802  loss_itm: 0.3223  loss_lm: 3.0754  time: 1.9943  data: 0.0002  max mem: 32019
+Train Epoch: [0]  [ 400/1889]  eta: 0:49:53  lr: 0.000064  loss_ita: 1.3355  loss_itm: 0.2109  loss_lm: 3.0163  time: 1.9964  data: 0.0002  max mem: 32019
+Train Epoch: [0]  [ 450/1889]  eta: 0:48:10  lr: 0.000061  loss_ita: 2.0386  loss_itm: 0.2876  loss_lm: 3.1120  time: 1.9960  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [ 500/1889]  eta: 0:46:28  lr: 0.000057  loss_ita: 1.8349  loss_itm: 0.2451  loss_lm: 3.1569  time: 1.9927  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [ 550/1889]  eta: 0:44:46  lr: 0.000054  loss_ita: 2.0531  loss_itm: 0.2243  loss_lm: 3.0678  time: 1.9964  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [ 600/1889]  eta: 0:43:03  lr: 0.000051  loss_ita: 2.0262  loss_itm: 0.3107  loss_lm: 2.9888  time: 1.9736  data: 0.0001  max mem: 32025
+Train Epoch: [0]  [ 650/1889]  eta: 0:41:20  lr: 0.000048  loss_ita: 2.0251  loss_itm: 0.2731  loss_lm: 3.0805  time: 1.9766  data: 0.0001  max mem: 32025
+Train Epoch: [0]  [ 700/1889]  eta: 0:39:40  lr: 0.000046  loss_ita: 1.8588  loss_itm: 0.2698  loss_lm: 2.9746  time: 1.9888  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [ 750/1889]  eta: 0:37:59  lr: 0.000043  loss_ita: 1.6298  loss_itm: 0.1814  loss_lm: 3.1607  time: 1.9949  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [ 800/1889]  eta: 0:36:19  lr: 0.000041  loss_ita: 1.7485  loss_itm: 0.2227  loss_lm: 3.0075  time: 1.9932  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [ 850/1889]  eta: 0:34:39  lr: 0.000039  loss_ita: 1.6366  loss_itm: 0.2807  loss_lm: 3.0472  time: 2.0004  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [ 900/1889]  eta: 0:32:58  lr: 0.000037  loss_ita: 2.1505  loss_itm: 0.2181  loss_lm: 3.0209  time: 1.9964  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [ 950/1889]  eta: 0:31:18  lr: 0.000035  loss_ita: 1.9696  loss_itm: 0.2767  loss_lm: 2.8757  time: 1.9955  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1000/1889]  eta: 0:29:38  lr: 0.000033  loss_ita: 2.0234  loss_itm: 0.2198  loss_lm: 2.9953  time: 1.9968  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1050/1889]  eta: 0:27:58  lr: 0.000031  loss_ita: 2.3003  loss_itm: 0.2381  loss_lm: 2.9321  time: 1.9972  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1100/1889]  eta: 0:26:18  lr: 0.000029  loss_ita: 2.6396  loss_itm: 0.2192  loss_lm: 2.9832  time: 1.9979  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1150/1889]  eta: 0:24:38  lr: 0.000028  loss_ita: 2.7738  loss_itm: 0.2803  loss_lm: 2.8996  time: 2.0009  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1200/1889]  eta: 0:22:58  lr: 0.000026  loss_ita: 3.0046  loss_itm: 0.2411  loss_lm: 2.9943  time: 1.9992  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1250/1889]  eta: 0:21:18  lr: 0.000025  loss_ita: 3.3182  loss_itm: 0.2829  loss_lm: 3.2085  time: 2.0030  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1300/1889]  eta: 0:19:38  lr: 0.000023  loss_ita: 3.1196  loss_itm: 0.2878  loss_lm: 3.0292  time: 1.9988  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1350/1889]  eta: 0:17:58  lr: 0.000022  loss_ita: 2.4624  loss_itm: 0.2902  loss_lm: 2.9556  time: 1.9961  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1400/1889]  eta: 0:16:17  lr: 0.000021  loss_ita: 2.2673  loss_itm: 0.2462  loss_lm: 3.0070  time: 1.9987  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1450/1889]  eta: 0:14:37  lr: 0.000020  loss_ita: 2.4845  loss_itm: 0.2940  loss_lm: 3.0055  time: 2.0001  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1500/1889]  eta: 0:12:57  lr: 0.000019  loss_ita: 2.2719  loss_itm: 0.2290  loss_lm: 3.0901  time: 1.9962  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1550/1889]  eta: 0:11:17  lr: 0.000018  loss_ita: 1.6437  loss_itm: 0.1534  loss_lm: 2.9026  time: 2.0008  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1600/1889]  eta: 0:09:37  lr: 0.000017  loss_ita: 2.3444  loss_itm: 0.2697  loss_lm: 3.1281  time: 1.9975  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1650/1889]  eta: 0:07:57  lr: 0.000016  loss_ita: 2.1970  loss_itm: 0.2380  loss_lm: 2.8913  time: 1.9970  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1700/1889]  eta: 0:06:17  lr: 0.000015  loss_ita: 2.4075  loss_itm: 0.1933  loss_lm: 3.0161  time: 1.9922  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1750/1889]  eta: 0:04:37  lr: 0.000014  loss_ita: 2.3607  loss_itm: 0.2937  loss_lm: 3.0558  time: 1.9894  data: 0.0002  max mem: 32025
+Train Epoch: [0]  [1800/1889]  eta: 0:02:57  lr: 0.000013  loss_ita: 2.7405  loss_itm: 0.2752  loss_lm: 2.9770  time: 1.9900  data: 0.0002  max mem: 32027
+Train Epoch: [0]  [1850/1889]  eta: 0:01:17  lr: 0.000013  loss_ita: 2.7427  loss_itm: 0.2061  loss_lm: 2.9213  time: 1.9871  data: 0.0002  max mem: 32027
+Train Epoch: [0]  [1888/1889]  eta: 0:00:01  lr: 0.000012  loss_ita: 2.9611  loss_itm: 0.2137  loss_lm: 3.0194  time: 1.9987  data: 0.0006  max mem: 32027
+Train Epoch: [0] Total time: 1:02:56 (1.9991 s / it)
+Averaged stats: lr: 0.0000  loss_ita: 2.1083  loss_itm: 0.2471  loss_lm: 3.0516
+Training time 1:03:19

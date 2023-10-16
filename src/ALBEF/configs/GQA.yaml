@@ -1,0 +1,24 @@
+train_file: ['/projects/nlp/data/pmh864/data/ALBEF/data/gqa_train.json']
+             
+test_file: ['/projects/nlp/data/pmh864/data/ALBEF/data/gqa_val.json',
+            '/projects/nlp/data/pmh864/data/ALBEF/data/gqa_testdev_all.json']
+answer_list: '/projects/nlp/data/pmh864/data/ALBEF/data/gqa-trainval_answer_list.json'
+
+vqa_root: '/projects/nlp/data/pmh864/data/gqa/images/'
+vg_root: ''
+
+image_res: 384
+batch_size_train: 32
+batch_size_test: 16 
+k_test: 128
+
+alpha: 0.4
+distill: True
+warm_up: True
+
+eos: '[SEP]'
+
+bert_config: 'configs/config_bert.json'
+
+optimizer: {opt: adamW, lr: 2e-5, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 2e-5, epochs: 8, min_lr: 1e-6, decay_rate: 1, warmup_lr: 1e-5, warmup_epochs: 4, cooldown_epochs: 0}

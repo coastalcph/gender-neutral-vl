@@ -1,0 +1,28 @@
+vqa_root: '/projects/nlp/data/pmh864/data/gqa/images/'
+vg_root: ''  #followed by image/
+train_file: ['/projects/nlp/data/pmh864/data/ALBEF/data/gqa_train.json']
+test_file: ['/projects/nlp/data/pmh864/data/ALBEF/data/gqa_val.json',
+            '/projects/nlp/data/pmh864/data/ALBEF/data/gqa_testdev_all.json']
+answer_list: '/projects/nlp/data/pmh864/data/ALBEF/data/gqa-trainval_answer_list.json'
+
+# set pretrained as a file path or an url
+pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_vqa_capfilt_large.pth'
+tokenizer_path: '/projects/nlp/data/pmh864/checkpoints/backbones/huggingface/bert-base-uncased'
+
+# size of vit model; base or large
+vit: 'base'
+batch_size_train: 16 
+batch_size_test: 32 
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+init_lr: 2e-5
+
+image_size: 480
+
+k_test: 128
+inference: 'rank'
+
+# optimizer
+weight_decay: 0.05
+min_lr: 0
+max_epoch: 10

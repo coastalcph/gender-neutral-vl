@@ -323,7 +323,7 @@ def getAttMap(img, attMap, blur=True, overlap=True):
 
 
 def _get_img_id(dataset, fname, split):
-    if dataset == "mscoco":
+    if dataset == "coco":
         if split == "test":
             fname = fname[len("COCO_test2014_") :]
         else:
@@ -340,7 +340,7 @@ def create_parser():
     parser.add_argument(
         "--dataset",
         type=str,
-        choices=["mscoco", "cc"],
+        choices=["coco", "cc3m"],
         help="Name of the dataset to be used",
     )
     parser.add_argument(

@@ -8,21 +8,14 @@ This is the code to replicate the experiments described in the paper (to appear 
 You can clone this repository issuing: <br>
 `git clone git@github.com:coastalcph/gender-neutral-vl.git`
 
-1\. Create a conda environment and install all dependencies.
-
-1.1. Option A) Create a fresh conda environment and use pip
+1\. Create a fresh conda environment and install all dependencies.
 ```text
-conda create -n gneutralvl python=3.9
-conda activate gneutralvl
+conda create -n genvlm python=3.9
+conda activate genvlm
 pip install -r requirements.txt
 ```
 
-1.2. Option B) You can directly create a conda environment with all dependencies installed as:
-```text
-conda create -n gneutralvl --file conda_requirements.txt python=3.9
-```
-
-2\. Install PyTorch (only needed if you chose Option A) in step 1).
+2\. Install PyTorch
 ```text
 conda install pytorch=1.12.0=py3.9_cuda11.3_cudnn8.3.2_0 torchvision=0.13.0=py39_cu113 cudatoolkit=11.3 -c pytorch
 ```
@@ -38,7 +31,7 @@ module load gcc/8.3.0-cuda
 
 4\. Setup the `refer` submodule for Referring Expression Comprehension:
 ```
-cd tools/refer; make
+cd src/LXMERT/volta/tools/refer; make
 ```
 
 5\. Install this codebase as a package in this environment.
@@ -46,9 +39,21 @@ cd tools/refer; make
 python setup.py develop
 ```
 
+## Repository Config
+
+The main configuration needed to run the scripts in the [experiments/](experiments/) folder is stored in [global.config](global.config). Please, edit this file at your own convenience.
+
+
 ## Data
 
-tbd
+You can download the preprocessed **gender-neutral** data from [here]() (tbd). These data files are used for continued pretraining on gender-neutral data. The original files are not re-distributed as they correspond to the train set from COCO* and from Conceptual Captions.
+
+Details on the method used to generate this data can be found in the paper. The mappings between gendered words and neutral words is in [Mappings.csv](src/bias/Mappings.csv) (and in Appendix A). The code to reproduce our preprocessing pipeline or apply it to your own data is stored in [src/preprocessing/](src/preprocessing). Scripts to run the code are in [experiments/preprocessing/](experiments/preprocessing).
+
+Lists of common nouns that co-occur with gender entities in the corresponding training data are stored in [src/preprocessing/top_objects/](src/preprocessing/top_objects). The top-N *objects* are used to evaluate bias amplification (N=100 to measure bias in pretraining, N=50 to measure bias in downstream tasks). See Section 4.2 and Section 5.3 for details.
+
+\* Note that we use the same COCO train split used for pretraining [LXMERT](https://github.com/airsplay/lxmert#pre-training), which is different from the original COCO train split or the Karpathy split.
+
 
 ## Models
 Check out [`MODELS.md`](MODELS.md) for links to pretrained models and gender-neutral pretrained models.
@@ -86,3 +91,12 @@ If you find our code/data/models or ideas useful in your research, please consid
 (to be updated)
 ```
 
+
+## Acknowledgement
+
+Our codebase heavily relies on these excellent repositories:
+- [VOLTA](https://github.com/e-bug/volta/tree/main)
+- [LXMERT](https://github.com/airsplay/lxmert)
+- [ALBEF](https://github.com/salesforce/ALBEF)
+- [BLIP](https://github.com/salesforce/BLIP)
+- [directional-bias-amp](https://github.com/princetonvisualai/directional-bias-amp/tree/main)

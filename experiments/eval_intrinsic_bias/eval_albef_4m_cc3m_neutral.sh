@@ -9,10 +9,9 @@
 
 export PYTHONPATH=$(builtin cd ..; pwd)
 
-CODE_DIR=/home/sxk199/projects/multimodal-gender-bias/src
-BASE_DIR=/projects/nlp/data/data/multimodal-gender-bias
-CKPT_DIR=${BASE_DIR}/checkpoints
-OUTS_DIR=${BASE_DIR}/outputs
+. ../../main.config
+
+
 
 name=albef_4m_cc3m_neutral
 task_name=eval_intrinsic_bias
@@ -24,7 +23,7 @@ ckpt=${OUTS_DIR}/Pretrain_CC3M_neutral/albef_4m/checkpoint_00.pth
 
 . /etc/profile.d/modules.sh
 eval "$(conda shell.bash hook)"
-conda activate multimodal
+conda activate genvlm
 
 cd $CODE_DIR
 

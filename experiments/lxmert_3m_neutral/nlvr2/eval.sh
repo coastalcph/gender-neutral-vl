@@ -9,13 +9,7 @@
 
 export PYTHONPATH=$(builtin cd ..; pwd)
 
-CODE_DIR=/home/sxk199/projects/multimodal-gender-bias/src/LXMERT
-BASE_DIR="/projects/nlp/data/data/multimodal-gender-bias"
-CKPT_DIR=${BASE_DIR}/checkpoints
-OUTS_DIR=${BASE_DIR}/outputs
-
-WANDB_ENT="coastal-multimodal-gb"
-WANDB_PROJ="MM-GB"
+. ../../main.config
 
 name=lxmert_3m_neutral
 task=12
@@ -33,14 +27,14 @@ mkdir -p $output
 # module load anaconda3/5.3.1
 # module load cuda/11.3
 eval "$(conda shell.bash hook)"
-conda activate multimodal
+conda activate genvlm
 
 cd $CODE_DIR
 
 # VALIDATION
 task_config_file=volta/config_tasks/all_trainval_tasks.yml
 
-python eval_task.py \
+python LXMERT/eval_task.py \
 	--config_file ${configs} \
 	--from_pretrained ${ckpt} \
 	--tasks_config_file ${task_config_file} \
@@ -53,7 +47,7 @@ python eval_task.py \
 # TEST
 task_config_file=volta/config_tasks/all_test_tasks.yml
 
-python eval_task.py \
+python LXMERT/eval_task.py \
 	--config_file ${configs} \
 	--from_pretrained ${ckpt} \
 	--tasks_config_file ${task_config_file} \

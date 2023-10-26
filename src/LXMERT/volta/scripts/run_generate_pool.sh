@@ -12,6 +12,6 @@ export CUDA_HOME=/usr/local/cuda-11.0
 export LD_LIBRARY_PATH=/home/sxk199/miniconda3/envs/multimodal/lib:$LD_LIBRARY_PATH
 export PYTHONWARNINGS="ignore"
 source ~/miniconda3/etc/profile.d/conda.sh
-conda activate multimodal
+conda activate genvlm
 python generate_pool.py mscoco
 conda deactivate

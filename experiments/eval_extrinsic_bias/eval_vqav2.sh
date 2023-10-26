@@ -9,9 +9,10 @@
 
 export PYTHONPATH=$(builtin cd ..; pwd)
 
-CODE_DIR=/home/sxk199/projects/multimodal-gender-bias/src/bias/extrinsic_bias_amp
-BASE_DIR="/projects/nlp/data/data/multimodal-gender-bias/outputs/VQA"
-INPUT_DIR="/projects/nlp/data/data/multimodal-gender-bias/data/vqav2"
+. ../../main.config
+
+results_to_eval=${OUTS_DIR}/VQA
+input_dir=${DATA_DIR}/vqav2
 
 task_name=VQA
 echo "Task eval: ${task_name}"
@@ -20,12 +21,12 @@ echo "Task eval: ${task_name}"
 # module load anaconda3/5.3.1
 # module load cuda/11.3
 eval "$(conda shell.bash hook)"
-conda activate multimodal
+conda activate genvlm
 
 cd $CODE_DIR
 sweep=0 
-python vqav2_dba.py ${BASE_DIR} ${INPUT_DIR} ${sweep}
+python bias/extrinsic_bias_amp/vqav2_dba.py ${results_to_eval} ${input_dir} ${sweep}
 sweep=1  # Results for appendix after 6 run
-python vqav2_dba.py ${BASE_DIR} ${INPUT_DIR}/sweeps ${sweep}
+python bias/extrinsic_bias_amp/vqav2_dba.py ${results_to_eval} ${input_dir}/sweeps ${sweep}
 
 conda deactivate

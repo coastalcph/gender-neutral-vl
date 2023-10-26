@@ -9,13 +9,7 @@
 
 export PYTHONPATH=$(builtin cd ..; pwd)
 
-CODE_DIR=/home/sxk199/projects/multimodal-gender-bias/src/LXMERT
-BASE_DIR="/projects/nlp/data/data/multimodal-gender-bias"
-CKPT_DIR=${BASE_DIR}/checkpoints
-OUTS_DIR=${BASE_DIR}/outputs
-
-WANDB_ENT="coastal-multimodal-gb"
-WANDB_PROJ="MM-GB"
+. ../../main.config
 
 name=lxmert_180k_neutral
 task=8

@@ -9,9 +9,10 @@
 
 export PYTHONPATH=$(builtin cd ..; pwd)
 
-CODE_DIR=/home/sxk199/projects/multimodal-gender-bias/src/bias/extrinsic_bias_amp
-BASE_DIR="/projects/nlp/data/data/multimodal-gender-bias/outputs/Retrieval_Flickr"
-INPUT_DIR="/projects/nlp/data/data/multimodal-gender-bias/data/flickr"
+. ../../main.config
+
+results_to_eval=${OUTS_DIR}/Retrieval_Flickr
+input_dir=${DATA_DIR}/flickr
 
 task_name=Retrieval_Flickr
 echo "Task eval: ${task_name}"
@@ -20,11 +21,11 @@ echo "Task eval: ${task_name}"
 # module load anaconda3/5.3.1
 # module load cuda/11.3
 eval "$(conda shell.bash hook)"
-conda activate multimodal
+conda activate genvlm
 
 cd $CODE_DIR
 #Image retrieval
-python flickr_dba.py ${BASE_DIR} ${INPUT_DIR} IR
+python bias/extrinsic_bias_amp/flickr_dba.py ${results_to_eval} ${input_dir} IR
 #Text retrieval
-python flickr_dba.py ${BASE_DIR} ${INPUT_DIR} TR
+python bias/extrinsic_bias_amp/flickr_dba.py ${results_to_eval} ${input_dir} TR
 conda deactivate

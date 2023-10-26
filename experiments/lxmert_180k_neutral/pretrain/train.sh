@@ -10,9 +10,8 @@
 export PYTHONPATH=$(builtin cd ..; pwd)
 
 CODE_DIR=/home/sxk199/projects/multimodal-gender-bias/src/LXMERT
-BASE_DIR="/projects/nlp/data/data/multimodal-gender-bias"
-CKPT_DIR=${BASE_DIR}/checkpoints
-OUTS_DIR=${BASE_DIR}/outputs
+
+
 ANNOS_DIR=${BASE_DIR}/data/volta/mscoco/annotations
 FEATS_DIR=${BASE_DIR}/data/volta/mscoco/resnet101_faster_rcnn_genome_imgfeats
 
@@ -32,7 +31,7 @@ mkdir -p $output
 # module load anaconda3/5.3.1
 # module load cuda/11.3
 eval "$(conda shell.bash hook)"
-conda activate multimodal
+conda activate genvlm
 
 
 cd $CODE_DIR

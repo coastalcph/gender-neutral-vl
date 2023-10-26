@@ -162,3 +162,15 @@ cython_debug/
 .idea/
 .vscode/
 
+# iOS
+.DS_Store
+*/.DS_Store
+
+# Wandb 
+wandb/
+
+# Project data
+checkpoints/
+outputs/
+data/
+logs/

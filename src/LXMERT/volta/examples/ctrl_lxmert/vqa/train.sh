@@ -22,10 +22,10 @@ OUTPUT_DIR=checkpoints/vqa/${MODEL}
 LOGGING_DIR=logs/vqa
 
 source ~/miniconda3/etc/profile.d/conda.sh
-conda activate multimodal
+conda activate genvlm
 
 cd ../../..
-python train_task.py \
+python LXMERT/train_task.py \
 	--config_file ${CONFIG_DIR}/${MODEL_CONFIG}.json --from_pretrained ${PRETRAINED} \
 	--tasks_config_file ${CONFIG_DIR}/config_tasks/${TASKS_CONFIG}.yml --task $TASK \
 	--adam_epsilon 1e-6 --adam_betas 0.9 0.999 --adam_correct_bias --weight_decay 0.0001 --warmup_proportion 0.1 --clip_grad_norm 1.0 \

@@ -7,13 +7,8 @@
 #SBATCH --output=train.out
 #SBATCH --error=train.err
 
-CODE_DIR=/home/pmh864/projects/multimodal-gender-bias/src/ALBEF
-ENVS_DIR=/home/pmh864/envs
-BASE_DIR="/projects/nlp/data/data/multimodal-gender-bias"
-CKPT_DIR=${BASE_DIR}/checkpoints
-OUTS_DIR=${BASE_DIR}/outputs
-WANDB_ENT="coastal-multimodal-gb"
-WANDB_PROJ="MM-GB"
+CODE_DIR=${CODE_DIR}/ALBEF
+
 
 name=albef_14m_cc3m_neutral
 task=NLVR

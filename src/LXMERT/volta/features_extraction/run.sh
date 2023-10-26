@@ -12,7 +12,7 @@ export PYTHONPATH=$(builtin cd ..; pwd)
 #module load anaconda3/5.3.1
 #module load cuda/11.4
 eval "$(conda shell.bash hook)"
-conda activate multimodal
+conda activate genvlm
 
 python h5_to_lxmert_splits.py \
  --h5_tr /projects/nlp/data/emanuele/data/mscoco/features/train2014_boxes36.h5 \

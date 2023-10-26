@@ -9,8 +9,7 @@
 
 export PYTHONPATH=$(builtin cd ..; pwd)
 
-CODE_DIR=/home/sxk199/projects/multimodal-gender-bias/src/preprocessing
-BASE_DIR=/projects/nlp/data/data/multimodal-gender-bias
+. ../../main.config
 
 task=0
 task_name=preprocessing
@@ -21,7 +20,7 @@ echo "Task ${task}: ${task_name}"
 # module load anaconda3/5.3.1
 # module load cuda/11.3
 eval "$(conda shell.bash hook)"
-conda activate multimodal
+conda activate genvlm
 
 cd $CODE_DIR
 
@@ -34,7 +33,7 @@ mkdir -p $output
 
 for split in "train" "val"; do
     echo ${name} ${split}
-    python gender_neutral.py ${name} ${split} ${input} ${output}
+    python preprocessing/gender_neutral.py ${name} ${split} ${input} ${output}
 done
 
 
@@ -47,7 +46,7 @@ mkdir -p $output
 
 for split in "train" "val"; do
     echo ${name} ${split}
-    python gender_neutral.py ${name} ${split} ${input} ${output}
+    python preprocessing/gender_neutral.py ${name} ${split} ${input} ${output}
 done
 
 conda deactivate

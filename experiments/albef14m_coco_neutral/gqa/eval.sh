@@ -7,13 +7,8 @@
 #SBATCH --output=eval.out
 #SBATCH --error=eval.err
 
-CODE_DIR=/home/pmh864/projects/multimodal-gender-bias/src/ALBEF
-ENVS_DIR=/home/pmh864/envs
-BASE_DIR="/projects/nlp/data/data/multimodal-gender-bias"
-CKPT_DIR=${BASE_DIR}/checkpoints
-OUTS_DIR=${BASE_DIR}/outputs
-WANDB_ENT="coastal-multimodal-gb"
-WANDB_PROJ="MM-GB"
+CODE_DIR=${CODE_DIR}/ALBEF
+
 
 name=albef_14m_coco_neutral
 task=GQA

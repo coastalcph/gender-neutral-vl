@@ -9,13 +9,7 @@
 
 export PYTHONPATH=$(builtin cd ..; pwd)
 
-CODE_DIR=/home/sxk199/projects/multimodal-gender-bias/src/LXMERT
-BASE_DIR="/projects/nlp/data/data/multimodal-gender-bias"
-CKPT_DIR=${BASE_DIR}/checkpoints
-OUTS_DIR=${BASE_DIR}/outputs
-
-WANDB_ENT="coastal-multimodal-gb"
-WANDB_PROJ="MM-GB"
+. ../../main.config
 
 name=lxmert_3m
 task=1
@@ -30,7 +24,7 @@ echo "Task ${task}: ${task_name}"
 # VALIDATION
 task_config_file=volta/config_tasks/all_trainval_tasks.yml
 
-python eval_task.py \
+python LXMERT/eval_task.py \
 	--config_file ${configs} \
 	--from_pretrained ${ckpt} \
 	--tasks_config_file ${task_config_file} \
@@ -43,7 +37,7 @@ python eval_task.py \
 # https://visualqa.org/challenge.html
 task_config_file=volta/config_tasks/all_test_tasks.yml
 
-python eval_task.py \
+python LXMERT/eval_task.py \
 	--config_file ${configs} \
 	--from_pretrained ${ckpt} \
 	--tasks_config_file ${task_config_file} \

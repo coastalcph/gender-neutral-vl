@@ -1,7 +1,7 @@
 # Evaluating Bias and Fairness in Gender-Neutral Pretrained Vision-and-Language Models
 
 This is the code to replicate the experiments described in the paper (to appear in EMNLP23):
->Laura Cabello, Emanuele Bugliarello, Stephanie Brandl and Desmond Elliott. [Evaluating Bias and Fairness in Gender-Neutral Pretrained Vision-and-Language Models](https://arxiv.org/abs/2310.17530). In _Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)_.
+>Laura Cabello, Emanuele Bugliarello, Stephanie Brandl and Desmond Elliott. [Evaluating Bias and Fairness in Gender-Neutral Pretrained Vision-and-Language Models](https://arxiv.org/abs/2310.17530). In _Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing_.
 
 ## Repository Setup
 
@@ -53,6 +53,7 @@ Details on the method used to generate this data can be found in the paper. The 
 Lists of common nouns that co-occur with gender entities in the corresponding training data are stored in [src/preprocessing/top_objects/](src/preprocessing/top_objects). The top-N *objects* are used to evaluate bias amplification (N=100 to measure bias in pretraining, N=50 to measure bias in downstream tasks). See Section 4.2 and Section 5.3 for details.
 
 \* Note that we use the same COCO train split used for pretraining [LXMERT](https://github.com/airsplay/lxmert#pre-training), which is different from the original COCO train split or the Karpathy split.
+
 \* Note that our CC3M files map captions to image ids obtained from filenames as done in [VOLTA](https://github.com/e-bug/volta/tree/main/data/conceptual_captions#conceptual-captions).
 
 ## Models
@@ -95,7 +96,7 @@ If you find our code/data/models or ideas useful in your research, please consid
       Bugliarello, Emanuele   and
       Brandl, Stephanie  and
       Elliott, Desmond",
-    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
     month = dec,
     year = "2023",
     address = "Singapore, Singapore",

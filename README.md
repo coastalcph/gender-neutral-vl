@@ -41,7 +41,7 @@ python setup.py develop
 
 ## Repository Config
 
-The main configuration needed to run the scripts in the [experiments/](experiments/) folder is stored in [global.config](global.config). Please, edit this file at your own convenience.
+The main configuration needed to run the scripts in the [experiments/](experiments/) folder is stored in [main.config](main.config). Please, edit this file at your own convenience.
 
 
 ## Data

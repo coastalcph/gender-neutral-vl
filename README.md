@@ -1,7 +1,7 @@
 # Evaluating Bias and Fairness in Gender-Neutral Pretrained Vision-and-Language Models
 
 This is the code to replicate the experiments described in the paper (to appear in EMNLP23):
->Laura Cabello, Emanuele Bugliarello, Stephanie Brandl and Desmond Elliott. Evaluating Bias and Fairness in Gender-Neutral Pretrained Vision-and-Language Models. _To appear in EMNLP 2023._
+>Laura Cabello, Emanuele Bugliarello, Stephanie Brandl and Desmond Elliott. [Evaluating Bias and Fairness in Gender-Neutral Pretrained Vision-and-Language Models](https://arxiv.org/abs/2310.17530). In _Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)_.
 
 ## Repository Setup
 
@@ -46,17 +46,18 @@ The main configuration needed to run the scripts in the [experiments/](experimen
 
 ## Data
 
-You can download the preprocessed **gender-neutral** data from [here]() (tbd). These data files are used for continued pretraining on gender-neutral data. The original files are not re-distributed as they correspond to the train set from COCO* and from Conceptual Captions.
+You can download the preprocessed **gender-neutral** data from [here](https://sid.erda.dk/sharelink/evl10QgflV). These data files are used for continued pretraining on gender-neutral data.
 
 Details on the method used to generate this data can be found in the paper. The mappings between gendered words and neutral words is in [Mappings.csv](src/bias/Mappings.csv) (and in Appendix A). The code to reproduce our preprocessing pipeline or apply it to your own data is stored in [src/preprocessing/](src/preprocessing). Scripts to run the code are in [experiments/preprocessing/](experiments/preprocessing).
 
 Lists of common nouns that co-occur with gender entities in the corresponding training data are stored in [src/preprocessing/top_objects/](src/preprocessing/top_objects). The top-N *objects* are used to evaluate bias amplification (N=100 to measure bias in pretraining, N=50 to measure bias in downstream tasks). See Section 4.2 and Section 5.3 for details.
 
 \* Note that we use the same COCO train split used for pretraining [LXMERT](https://github.com/airsplay/lxmert#pre-training), which is different from the original COCO train split or the Karpathy split.
-
+\* Note that our CC3M files map captions to image ids obtained from filenames as done in [VOLTA](https://github.com/e-bug/volta/tree/main/data/conceptual_captions#conceptual-captions).
 
 ## Models
-Check out [`MODELS.md`](MODELS.md) for links to pretrained models and gender-neutral pretrained models.
+
+Our pretrained models can be downloaded from [here](https://sid.erda.dk/sharelink/aQxK7MVAjw), where `third_party/` contains the original weights, while `Pretrain_{CC3M,COCO}_neutral/` contain the weights after continued pretraining on gender-neutral data.
 
 Model configuration depend on the model family. Files are stored in:
 
@@ -88,7 +89,19 @@ This work is licensed under the MIT license. See [`LICENSE`](LICENSE) for detail
 Third-party software and data sets are subject to their respective licenses. <br>
 If you find our code/data/models or ideas useful in your research, please consider citing the paper:
 ```
-(to be updated)
+@inproceedings{cabello-etal-2023-evaluating,
+    title = "Evaluating Bias and Fairness in Gender-Neutral Pretrained Vision-and-Language Models",
+    author = "Cabello, Laura  and
+      Bugliarello, Emanuele   and
+      Brandl, Stephanie  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)",
+    month = dec,
+    year = "2023",
+    address = "Singapore, Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://arxiv.org/abs/2310.17530",
+}
 ```
 
 
